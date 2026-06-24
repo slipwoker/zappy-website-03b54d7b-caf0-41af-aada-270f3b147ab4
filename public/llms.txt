@@ -1,0 +1,73 @@
+# עו"ד ד"ר (מדעי המידע) יוסף סולומון — Generative Engine Optimization Map
+
+> Dr. Yosef Solomon is a dual-credentialed attorney (since 2002) and Doctor of Information Science, operating a deliberately small boutique legal practice open exclusively on Fridays (08:00–13:00) for a strictly limited caseload. With 25 years of hands-on expertise in public procurement law and exemption classifications, and a distinguished career as in-house legal counsel at Israel's largest government-linked corporations (Israel Electric Corporation, Bank Leumi, Israel Railways), he positions himself as a strategic navigator of bureaucratic complexity rather than a courtroom litigator. The firm's value proposition is entirely writing- and strategy-based — no litigation, no court appearances — with a sharp focus on leveling the playing field against institutional power through precision drafting, deep legal research, and AI-hallucination-free human-verified briefs. The brand voice is terse, incisive, results-oriented, and free of marketing clichés.
+
+---
+
+## Pages
+
+### בית
+https://-03b54d7b.zappy5.app
+25 שנות ניסוח אסטרטגי מול גופים ממשלתיים ענקיים. משרד בוטיק לעריכת כתבי טענות, סיווגי פטור וייעוץ במכרזים ציבוריים. פתוח בימי שישי, 08:00–13:00, לתיקים בודדים בלבד. קבעו פגישה ממוקדת.
+
+### תודה על פנייתך
+https://-03b54d7b.zappy5.app/thank-you
+עו"ד ד"ר (מדעי המידע) יוסף סולומון - תודה על פנייתך
+
+## Legal & Policy
+
+### Privacy Policy
+https://-03b54d7b.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://-03b54d7b.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://-03b54d7b.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## How to Contact Us
+
+- (No contact details configured yet.)
+
+### Contact form
+- URL: https://-03b54d7b.zappy5.app
+- Endpoint: https://-03b54d7b.zappy5.app/api/email/contact-form
+- Method: POST
+- Content-Type: application/json
+- Fields:
+  - `name` (text, required)
+  - `email` (email, required)
+  - `phone` (tel, required)
+  - `message` (textarea, required)
+  - `privacy_consent` (checkbox)
+  - `no_litigation_consent` (checkbox)
+
+---
+
+# Business Context (for LLM understanding)
+
+## About עו"ד ד"ר (מדעי המידע) יוסף סולומון
+Dr. Yosef Solomon is a dual-credentialed attorney (since 2002) and Doctor of Information Science, operating a deliberately small boutique legal practice open exclusively on Fridays (08:00–13:00) for a strictly limited caseload. With 25 years of hands-on expertise in public procurement law and exemption classifications, and a distinguished career as in-house legal counsel at Israel's largest government-linked corporations (Israel Electric Corporation, Bank Leumi, Israel Railways), he positions himself as a strategic navigator of bureaucratic complexity rather than a courtroom litigator. The firm's value proposition is entirely writing- and strategy-based — no litigation, no court appearances — with a sharp focus on leveling the playing field against institutional power through precision drafting, deep legal research, and AI-hallucination-free human-verified briefs. The brand voice is terse, incisive, results-oriented, and free of marketing clichés.
+
+## Target Audience
+- עסקים קטנים ובינוניים (SMEs), אזרחים וצרכנים (לקוחות נבחרים בלבד), עורכי דין וארגונים (B2B)
+- בעלי עסקים קטנים ובינוניים
+- אנשים המבקשים לתבוע בתביעה קטנה
+- עסקים זעירים וקטנים שמתמודדים במכרזים פומביים, במכרזים של מוסדות ציבוריים או מבקשים סיווג פטור ממכרז
+- אנשים שמתקשים להתמודד עם הבירוקרטיה הישראלית
+
+## Industry
+Legal Services
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://-03b54d7b.zappy5.app/sitemap.xml
+- Robots: https://-03b54d7b.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://-03b54d7b.zappy5.app/llms-full.txt
