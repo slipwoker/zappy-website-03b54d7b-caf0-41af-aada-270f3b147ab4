@@ -257,6 +257,274 @@
     <script src="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.umd.js"></script>
     <!-- Mickidum Accessibility Toolbar -->
     <script src="https://cdn.jsdelivr.net/gh/mickidum/acc_toolbar/acctoolbar/acctoolbar.min.js"></script>
+
+<style data-zappy-section-v2-css="true">
+/* V2 Regenerated Section CSS */
+.index-hero-section {
+  position: relative;
+  overflow: visible;
+  background-color: #1B2B4B;
+  background-image: linear-gradient(180deg, #1B2B4B 0%, #131F35 100%);
+  color: var(--text-light);
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  direction: rtl;
+  padding-bottom: 80px;
+}
+
+.index-hero-section__bg-image {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.index-hero-section__bg-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.55) saturate(0.85);
+  display: block;
+}
+
+.index-hero-section__scrim {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  background-image: linear-gradient(135deg, rgba(27,43,75,0.85) 0%, rgba(15,28,51,0.4) 100%);
+}
+
+.index-hero-section__container {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 120px 24px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.index-hero-section__content {
+  flex: 1 1 55%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  text-align: right;
+}
+
+.index-hero-section__badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 8px;
+}
+
+.index-hero-section__badge {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(4px);
+  border-radius: 100px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--text-light);
+  white-space: nowrap;
+  transition: all 0.3s ease;
+}
+
+.index-hero-section__badge:hover {
+  background: rgba(255, 255, 255, 0.14);
+  border-color: rgba(201, 168, 76, 0.4);
+  box-shadow: 0 0 20px rgba(201, 168, 76, 0.15);
+}
+
+.index-hero-section__badge svg {
+  width: 16px;
+  height: 16px;
+  color: #C9A84C;
+  flex-shrink: 0;
+}
+
+.index-hero-section__headline {
+  font-family: 'Noto Serif Hebrew', 'Frank Ruhl Libre', serif;
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  line-height: 1.15;
+  color: var(--text-light);
+  margin: 0;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.4);
+}
+
+.index-hero-section__subtitle {
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.7;
+  color: rgba(250, 249, 246, 0.85);
+  margin: 0;
+  max-width: 540px;
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.35);
+}
+
+.index-hero-section__ctas {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-top: 12px;
+}
+
+.index-hero-section__btn {
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 32px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 6px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  border: none;
+  white-space: nowrap;
+}
+
+.index-hero-section__btn--primary {
+  background: #C9A84C;
+  color: #FFFFFF;
+  box-shadow: 0 4px 20px rgba(201, 168, 76, 0.3);
+}
+
+.index-hero-section__btn--primary:hover {
+  background: #D4B55A;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 28px rgba(201, 168, 76, 0.45);
+}
+
+.index-hero-section__btn--ghost {
+  background: transparent;
+  color: var(--text-light);
+  border: 1.5px solid rgba(250, 249, 246, 0.5);
+}
+
+.index-hero-section__btn--ghost:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: var(--text-light);
+  transform: translateY(-2px);
+}
+
+.index-hero-section__visual {
+  flex: 0 0 320px;
+  position: relative;
+  height: 420px;
+  display: none;
+}
+
+.index-hero-section__gold-accent {
+  position: absolute;
+  bottom: 0;
+  inset-inline-end: 0;
+  width: 60px;
+  height: 4px;
+  background: linear-gradient(90deg, #C9A84C, #E8C96A);
+  border-radius: 2px;
+  z-index: 2;
+  box-shadow: 0 0 16px rgba(201, 168, 76, 0.5);
+}
+
+.index-hero-section__dark-panel {
+  position: absolute;
+  inset-inline-start: 0;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background: rgba(201, 168, 76, 0.3);
+  border-radius: 2px;
+  z-index: 2;
+}
+
+.index-hero-section__divider-wrapper {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  pointer-events: none;
+  z-index: 5;
+}
+
+.index-hero-section__divider-wrapper svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+@media (min-width: 1024px) {
+  .index-hero-section__visual {
+    display: block;
+  }
+  .index-hero-section__container {
+    padding: 140px 40px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .index-hero-section {
+    padding-top: 100px;
+    padding-bottom: 80px;
+    min-height: auto;
+  }
+  .index-hero-section__container {
+    padding: 0 16px;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .index-hero-section__content {
+    max-width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+  .index-hero-section__badges {
+    justify-content: center;
+  }
+  .index-hero-section__headline {
+    font-size: 2.2rem;
+    text-align: center;
+  }
+  .index-hero-section__subtitle {
+    text-align: center;
+    font-size: 1.1rem;
+  }
+  .index-hero-section__ctas {
+    justify-content: center;
+  }
+  .index-hero-section__btn {
+    padding: 12px 24px;
+    font-size: 0.95rem;
+  }
+  .index-hero-section__visual {
+    display: none;
+  }
+}
+/* ZAPPY_POSTGEN_GUARD_HERO_FONT_CAP:index-hero */
+.hero h1, .hero-section h1, [class*="hero-"] h1, [class~="hero"] h1, .hero .hero-title, .hero-title { font-size: 48px !important; line-height: 1.2 !important; }
+@media (max-width: 1024px) {
+  .hero h1, .hero-section h1, [class*="hero-"] h1, [class~="hero"] h1, .hero .hero-title, .hero-title { font-size: 36px !important; }
+}
+@media (max-width: 768px) {
+  .hero h1, .hero-section h1, [class*="hero-"] h1, [class~="hero"] h1, .hero .hero-title, .hero-title { font-size: 28px !important; }
+}
+
+</style>
     <link rel="stylesheet" href="/styles.css">
     <script>window.ZAPPY_WEBSITE_ID = "03b54d7b-caf0-41af-aada-270f3b147ab4"; window.ZAPPY_API_BASE = "https://api.zappy5.com";</script>
 
@@ -835,41 +1103,42 @@
 </script>
   
   <main id="main">
-    <section data-band-index="0" id="hero" class="index-hero-section" data-layout-spec="בית-hero" data-hero-treatment="fade-bleed" style="--hero-fade-color: var(--bg-light);" aria-label="אזור ראשי - עו&quot;ד ד&quot;ר יוסף סולומון" data-hero-type="fullscreen-scrim">
-  <img loading="eager" fetchpriority="high" class="hero-fade-img" data-hero-bg="true" data-placeholder="index-hero-image-1" data-context="A realistic, restrained legal work setting: a disciplined wooden desk with marked procurement documents, a legal pad with handwritten notes, an open law book, and a subtle human presence — perhaps a cropped silhouette or hands in a suit jacket reviewing papers. The lighting is soft and focused, the mood is serious and credible, with no glossy corporate staging. The subject occupies the right side of the frame." width="1200" height="800" src="/assets/site-index-hero-image-1.webp" alt="סביבת עבודה משפטית מאופקת עם מסמכי מכרזים ופתקי מחקר">
-
-  <div class="hero-fade-content">
-    <h1 class="display-xl">ניווט אסטרטגי במכרזים ובבירוקרטיה — ניסוח משפטי מדויק לתיקים נבחרים</h1>
-    <h3 class="hero-subtitle">עורך דין משנת 2002, דוקטור למדעי המידע. משרד בוטיק מצומצם בימי שישי בלבד. כתיבה ואסטרטגיה — ללא ליטיגציה, ללא הופעות בבתי משפט.</h3>
-    
-    <div class="credential-strip">
-      <div class="credential-item">
-        <span class="credential-icon" aria-hidden="true">🎓</span>
-        <span class="credential-text">מרצה באוניברסיטה</span>
-      </div>
-      <div class="credential-item">
-        <span class="credential-icon" aria-hidden="true">📊</span>
-        <span class="credential-text">חוקר באינפורמטיקה משפטית</span>
-      </div>
-      <div class="credential-item">
-        <span class="credential-icon" aria-hidden="true">🏛️</span>
-        <span class="credential-text">יועץ משפטי לשעבר בחברות ממשלתיות מובילות</span>
-      </div>
-    </div>
-    
-    <div class="editorial-rule" aria-hidden="true"></div>
-    
-    <div class="cta-stack">
-      <a href="#contact" class="btn-primary">בקשת בירור מנהלי</a>
-      <a href="#card" class="btn-secondary">כרטיס ביקור דיגיטלי רשמי</a>
-    </div>
-    
-    <p class="availability-note">ימי שישי בלבד, 08:00–13:00 | תיקים בהיקף מצומצם</p>
+    <section class="index-hero-section" data-layout-spec="בית-hero" data-hero-type="side-by-side" id="hero">
+  <div class="index-hero-section__bg-image">
+    <img data-context="Professional Israeli lawyer in a modern office, sitting at a desk with a laptop and legal documents, looking confident and authoritative, soft natural lighting, clean background, premium law firm aesthetic" width="600" height="400" src="/assets/legal-services-section-בית-hero-index-hero-image-1.webp" alt="עו&quot;ד ד&quot;ר יוסף סולומון במשרד">
   </div>
-
-  <div class="index-hero-divider-wrapper" aria-hidden="true">
+  <div class="index-hero-section__scrim"></div>
+  <div class="index-hero-section__container">
+    <div class="index-hero-section__content">
+      <div class="index-hero-section__badges">
+        <span class="index-hero-section__badge">
+          <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"></path></svg>
+          <span>25 שנות מומחיות</span>
+        </span>
+        <span class="index-hero-section__badge">
+          <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8"></path><path d="M22 10L12 16l-4-2"></path><path d="M16 16l6 6"></path><path d="M16 22h6v-6"></path></svg>
+          <span>ייעוץ אסטרטגי בלבד</span>
+        </span>
+        <span class="index-hero-section__badge">
+          <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M12 8v4l2 2"></path></svg>
+          <span>ימי ו' 08:00–13:00</span>
+        </span>
+      </div>
+      <h1 class="index-hero-section__headline">ניווט אסטרטגי במכרזים ובבירוקרטיה — ניסוח משפטי מדויק לתיקים נבחרים</h1>
+      <h3 class="index-hero-section__subtitle">עורך דין משנת 2002, דוקטור למדעי המידע. משרד בוטיק מצומצם בימי שישי בלבד. כתיבה ואסטרטגיה — ללא ליטיגציה, ללא הופעות בבתי משפט.</h3>
+      <div class="index-hero-section__ctas">
+        <a href="#contact" class="index-hero-section__btn index-hero-section__btn--primary" style="color: #1A1A1A !important">קבעו פגישה</a>
+        <a href="#approach" class="index-hero-section__btn index-hero-section__btn--ghost">גלו את הגישה</a>
+      </div>
+    </div>
+    <div class="index-hero-section__visual">
+      <div class="index-hero-section__gold-accent"></div>
+      <div class="index-hero-section__dark-panel"></div>
+    </div>
+  </div>
+  <div class="index-hero-section__divider-wrapper">
     <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0,80 L0,35 Q150,45 300,32 T600,38 Q750,42 900,30 T1200,40 L1200,80 Z" fill="var(--bg-light)"></path>
+      <path d="M0,80 L0,40 Q50,35 100,42 T200,38 Q250,42 300,35 T400,40 Q450,38 500,42 T600,35 Q650,40 700,38 T800,42 Q850,35 900,40 T1000,38 Q1050,42 1100,35 T1200,40 L1200,80 Z" fill="var(--bg-light)"></path>
     </svg>
   </div>
 </section>
