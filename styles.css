@@ -4851,14 +4851,7 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
     font-size: 13px;
   }
 }
-/* === BUTTON TEXT OVERRIDES START === */
-.btn-accent,
-.btn--accent,
-[class*="btn-accent"],
-[class*="btn--accent"] { color: #333333 !important; }
-.navbar .nav-cta-btn,
-.nav-cta-btn { color: #FFFFFF !important; }
-/* === BUTTON TEXT OVERRIDES END === */
+
 
 /* Font pairing applied */
 @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@700&display=swap');
@@ -5340,6 +5333,23 @@ h1, h2, h3, h4, h5, h6 { font-family: 'Assistant', sans-serif; font-weight: 700;
   }
 }
 /* /Zappy custom logo size */
+
+
+
+
+
+
+
+
+
+/* === BUTTON TEXT OVERRIDES START === */
+.btn-accent,
+.btn--accent,
+[class*="btn-accent"],
+[class*="btn--accent"] { color: #333333 !important; }
+.navbar .nav-cta-btn,
+.nav-cta-btn { color: #FFFFFF !important; }
+/* === BUTTON TEXT OVERRIDES END === */
 
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
