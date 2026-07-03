@@ -5228,6 +5228,110 @@ h1, h2, h3, h4, h5, h6 { font-family: 'Assistant', sans-serif; font-weight: 700;
     max-width: 240px;
   }
 }
+
+/* Added Component Styles */
+.gallery-section {
+  background-color: var(--background-color, #FAF9F6);
+  padding: 80px 20px;
+  direction: rtl;
+  font-family: system-ui, sans-serif;
+}
+
+.gallery-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 280px;
+  gap: 16px;
+  grid-auto-flow: dense;
+}
+
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(27, 43, 75, 0.08);
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+  background-color: var(--surface-color, #FFFFFF);
+}
+
+.gallery-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 32px rgba(27, 43, 75, 0.15);
+}
+
+.gallery-item--tall {
+  grid-row: span 2;
+}
+
+.gallery-item--wide {
+  grid-column: span 2;
+}
+
+.gallery-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.5s ease;
+}
+
+.gallery-item:hover .gallery-image {
+  transform: scale(1.05);
+}
+
+/* Mobile Responsive */
+@media (max-width: 1024px) {
+  .gallery-grid {
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 240px;
+    gap: 12px;
+  }
+  
+  .gallery-section {
+    padding: 60px 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .gallery-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 220px;
+    gap: 10px;
+  }
+  
+  .gallery-item--wide {
+    grid-column: span 2;
+  }
+  
+  .gallery-item--tall {
+    grid-row: span 2;
+  }
+  
+  .gallery-section {
+    padding: 48px 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .gallery-grid {
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 180px;
+    gap: 8px;
+  }
+  
+  .gallery-item {
+    border-radius: 8px;
+  }
+  
+  .gallery-section {
+    padding: 36px 10px;
+  }
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
