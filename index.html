@@ -228,114 +228,13 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="מכרזים? אל תילחם לבד — עו&quot;ד ד&quot;ר (מדעי המידע) יוסף סולומון">
     <meta name="twitter:description" content="25 שנות ניסוח אסטרטגי מול גופים ממשלתיים ענקיים. משרד בוטיק לעריכת כתבי טענות, סיווגי פטור וייעוץ במכרזים ציבוריים. פתוח בימי שישי, 08:00–13:00, לתיקים בודדים בלבד. קבעו פגישה ממוקדת.">
-    
-    <link rel="stylesheet" href="/styles.css">
-    <script>window.ZAPPY_WEBSITE_ID = "03b54d7b-caf0-41af-aada-270f3b147ab4"; window.ZAPPY_API_BASE = "https://api.zappy5.com";</script>
-
-    <style id="zappy-dropdown-submenu-styles">
-      /* ========== DESKTOP DROPDOWN SUBMENU STYLES ========== */
-      /* Base styles for dropdown submenus - parent must be positioned */
-      .nav-menu li:has(.sub-menu), nav li:has(.sub-menu), .navbar li:has(.sub-menu), #navMenu li:has(.sub-menu) { position: relative; }
-      /* Submenu base - hidden by default */
-      .nav-menu .sub-menu, nav .sub-menu, .navbar .sub-menu, #navMenu .sub-menu { display: block !important; position: absolute !important; top: 100%; left: 0; min-width: 220px; background: white; border-radius: 8px; box-shadow: 0 8px 25px rgba(0,0,0,0.15); padding: 8px 0; opacity: 0; visibility: hidden; transform: translateY(10px); transition: all 0.3s ease; z-index: 1000; list-style: none; pointer-events: none; }
-      /* CRITICAL: Desktop hover styles to show dropdown */
-      .nav-menu li:hover > .sub-menu, nav li:hover > .sub-menu, .navbar li:hover > .sub-menu, #navMenu li:hover > .sub-menu { opacity: 1 !important; visibility: visible !important; transform: translateY(0) !important; pointer-events: auto !important; }
-      /* Submenu item styling */
-      .sub-menu li { list-style: none; margin: 0; padding: 0; }
-      .sub-menu a { display: block !important; padding: 10px 16px !important; color: var(--text-dark, #333) !important; font-weight: 500; text-decoration: none; white-space: nowrap; transition: background-color 0.2s; }
-      .sub-menu .zappy-nav-child > a { padding-left: 28px !important; font-size: 0.9em !important; opacity: 0.85 !important; }
-      [dir="rtl"] .sub-menu .zappy-nav-child > a, html[lang="he"] .sub-menu .zappy-nav-child > a, html[lang="ar"] .sub-menu .zappy-nav-child > a { padding-left: 10px !important; padding-right: 28px !important; }
-      .sub-menu .zappy-nav-parent > a { font-weight: 600 !important; }
-      .sub-menu a:hover { background-color: #f5f5f5; }
-      /* RTL (Hebrew/Arabic) dropdown positioning */
-      [dir="rtl"] .nav-menu .sub-menu, [dir="rtl"] nav .sub-menu, [dir="rtl"] .navbar .sub-menu, html[lang="he"] .nav-menu .sub-menu, html[lang="he"] nav .sub-menu, html[lang="he"] .navbar .sub-menu, html[lang="ar"] .nav-menu .sub-menu, html[lang="ar"] nav .sub-menu, html[lang="ar"] .navbar .sub-menu { left: auto !important; right: 0 !important; }
-      /* Hide empty dropdown menus (exclude catalog sub-menus that use <a> children instead of <li>) */
-      .sub-menu:empty, .sub-menu:not(:has(li:not(.zappy-hidden-menu-item))):not(:has(> a)), .sub-menu:not(:has(li)):not(:has(> a)) { display: none !important; opacity: 0 !important; visibility: hidden !important; pointer-events: none !important; }
-      /* Desktop: show submenu on Menu Group hover */
-      li:has(.menu-group-title):hover > .sub-menu { opacity: 1 !important; visibility: visible !important; transform: translateY(0) !important; pointer-events: auto !important; }
-      /* Menu Group title styling */
-      .nav-menu > li > .menu-group-title, #navMenu > li > .menu-group-title { display: inline-block; padding: 0.5rem 1rem; cursor: default; user-select: none; }
-      
-      /* ========== MOBILE SUBMENU STYLES ========== */
-      @media (max-width: 768px) {
-        .nav-menu .sub-menu, nav .sub-menu, .navbar .sub-menu, #navMenu .sub-menu { position: static !important; transform: none !important; box-shadow: none !important; background: transparent !important; max-height: 0; overflow: hidden; opacity: 0; visibility: hidden; transition: max-height 0.3s ease, opacity 0.3s ease; padding: 0 !important; border-radius: 0 !important; }
-        .navbar .sub-menu.mobile-expanded, .nav-menu .sub-menu.mobile-expanded, #navMenu .sub-menu.mobile-expanded { max-height: none !important; overflow-y: visible !important; opacity: 1 !important; visibility: visible !important; padding: 8px 0 8px 16px !important; }
-        [dir="rtl"] .sub-menu.mobile-expanded, html[lang="he"] .sub-menu.mobile-expanded { padding: 8px 16px 8px 0 !important; }
-        /* Disable hover behavior on mobile */
-        .nav-menu li:hover > .sub-menu, nav li:hover > .sub-menu, .navbar li:hover > .sub-menu, #navMenu li:hover > .sub-menu { opacity: 0; visibility: hidden; pointer-events: none; }
-        .nav-menu li > .sub-menu.mobile-expanded, nav li > .sub-menu.mobile-expanded, .navbar li > .sub-menu.mobile-expanded, #navMenu li > .sub-menu.mobile-expanded { opacity: 1 !important; visibility: visible !important; pointer-events: auto !important; }
-        .nav-menu li:has(.sub-menu), nav li:has(.sub-menu), .navbar li:has(.sub-menu), #navMenu li:has(.sub-menu) { display: flex !important; flex-wrap: wrap !important; align-items: center !important; position: relative !important; min-height: 44px !important; }
-        .nav-menu li:has(.sub-menu) > a, nav li:has(.sub-menu) > a, .navbar li:has(.sub-menu) > a, #navMenu li:has(.sub-menu) > a { flex: 1 !important; min-width: 0 !important; }
-        .nav-menu li:has(.sub-menu) > .menu-group-title, nav li:has(.sub-menu) > .menu-group-title, .navbar li:has(.sub-menu) > .menu-group-title, #navMenu li:has(.sub-menu) > .menu-group-title { flex: 1 !important; min-width: 0 !important; padding: 0 !important; line-height: inherit !important; }
-        .nav-menu li:has(.sub-menu) > .sub-menu, nav li:has(.sub-menu) > .sub-menu, .navbar li:has(.sub-menu) > .sub-menu, #navMenu li:has(.sub-menu) > .sub-menu { flex-basis: 100% !important; width: 100% !important; }
-        .nav-menu li:has(.sub-menu) > a [class*="chevron"], .nav-menu li:has(.sub-menu) > a [class*="arrow"], .nav-menu li:has(.sub-menu) > a .fa-chevron-down, .nav-menu li:has(.sub-menu) > a .fa-angle-down, nav li:has(.sub-menu) > a [class*="chevron"], nav li:has(.sub-menu) > a [class*="arrow"], #navMenu li:has(.sub-menu) > a [class*="chevron"], #navMenu li:has(.sub-menu) > a [class*="arrow"] { display: none !important; visibility: hidden !important; }
-        .mobile-submenu-toggle { display: flex !important; align-items: center !important; justify-content: center !important; width: 44px !important; height: auto !important; background: transparent !important; border: none !important; cursor: pointer !important; color: var(--text-light) !important; position: static !important; flex-shrink: 0 !important; align-self: stretch !important; z-index: 2 !important; padding: 0 !important; margin: 0 !important; }
-        .mobile-submenu-toggle::after { content: '' !important; width: 0 !important; height: 0 !important; border-left: 6px solid transparent !important; border-right: 6px solid transparent !important; border-top: 7px solid currentColor !important; transition: transform 0.3s ease !important; }
-        .mobile-submenu-toggle.expanded::after { transform: rotate(180deg) !important; }
-        .sub-menu a { padding: 10px 0 !important; display: block !important; color: var(--text-light) !important; white-space: normal !important; }
-        .sub-menu .zappy-nav-child > a { padding-left: 28px !important; font-size: 0.9em !important; opacity: 0.85 !important; }
-        [dir="rtl"] .sub-menu .zappy-nav-child > a, html[lang="he"] .sub-menu .zappy-nav-child > a, html[lang="ar"] .sub-menu .zappy-nav-child > a { padding-left: 0 !important; padding-right: 28px !important; }
-        .sub-menu .zappy-nav-parent > a { font-weight: 600 !important; }
-        .nav-menu.active, #navMenu.active { max-width: 100vw !important; overflow-x: hidden !important; box-sizing: border-box !important; }
-        .navbar .sub-menu li a, nav.navbar .sub-menu li a, .zappy-products-dropdown .sub-menu a { color: var(--text-light) !important; }
-      }
-      @media (min-width: 769px) { .mobile-submenu-toggle { display: none !important; } }
-    </style>
-
-    <style id="zappy-widget-visibility">
-      html[dir="rtl"] .whatsapp-float { right: 20px !important; left: auto !important; }
-      html[dir="ltr"] .whatsapp-float, html:not([dir]) .whatsapp-float { left: 20px !important; right: auto !important; }
-      html[dir="rtl"] #mic-access-tool-general-button, html[dir="rtl"] .mic-access-tool-general-button,
-      html[dir="rtl"] #mic-init-access-tool .mic-access-tool-general-button,
-      html[dir="rtl"] #mic-init-access-tool #mic-access-tool-general-button,
-      html[dir="rtl"] ._access-icon { left: 20px !important; right: auto !important; }
-      html[dir="ltr"] #mic-access-tool-general-button, html[dir="ltr"] .mic-access-tool-general-button,
-      html[dir="ltr"] #mic-init-access-tool .mic-access-tool-general-button,
-      html[dir="ltr"] #mic-init-access-tool #mic-access-tool-general-button,
-      html[dir="ltr"] ._access-icon,
-      html:not([dir]) #mic-access-tool-general-button, html:not([dir]) .mic-access-tool-general-button,
-      html:not([dir]) #mic-init-access-tool .mic-access-tool-general-button,
-      html:not([dir]) #mic-init-access-tool #mic-access-tool-general-button,
-      html:not([dir]) ._access-icon { right: 20px !important; left: auto !important; }
-      @media (max-width: 768px) { .whatsapp-float { display: flex !important; } }
-      @media (min-width: 769px) { .whatsapp-float { display: flex !important; } }
-      @media (max-width: 768px) {
-        #mic-access-tool-general-button, .mic-access-tool-general-button,
-        #mic-init-access-tool .mic-access-tool-general-button, #mic-init-access-tool #mic-access-tool-general-button,
-        ._access-icon { display: flex !important; visibility: visible !important; opacity: 1 !important; pointer-events: auto !important; }
-        #mic-access-tool-box.opened-mic-access-tool, .mic-access-tool-box.opened-mic-access-tool,
-        #mic-init-access-tool #mic-access-tool-box.opened-mic-access-tool {
-          visibility: visible !important; opacity: 1 !important; pointer-events: auto !important;
-        }
-      }
-      @media (min-width: 769px) {
-        #mic-access-tool-general-button, .mic-access-tool-general-button,
-        #mic-init-access-tool .mic-access-tool-general-button, #mic-init-access-tool #mic-access-tool-general-button,
-        ._access-icon { display: flex !important; visibility: visible !important; opacity: 1 !important; pointer-events: auto !important; }
-        #mic-access-tool-box.opened-mic-access-tool, .mic-access-tool-box.opened-mic-access-tool,
-        #mic-init-access-tool #mic-access-tool-box.opened-mic-access-tool {
-          visibility: visible !important; opacity: 1 !important; pointer-events: auto !important;
-        }
-      }
-    </style>
-</head>
-<body>
-<meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>מכרזים? אל תילחם לבד — עו"ד ד"ר (מדעי המידע) יוסף סולומון</title>
-  <meta name="description" content="25 שנות ניסוח אסטרטגי מול גופים ממשלתיים ענקיים. משרד בוטיק לעריכת כתבי טענות, סיווגי פטור וייעוץ במכרזים ציבוריים. פתוח בימי שישי, 08:00–13:00, לתיקים בודדים בלבד. קבעו פגישה ממוקדת.">
-  <meta name="keywords" content="עורך דין מכרזים לעסקים קטנים, ייעוץ משפטי מכרזים פומביים ישראל, סיווג פטור ממכרז ייעוץ משפטי, בירוקרטיה עו&quot;ד, ניסוח כתב טענות תביעה קטנה">
-  <meta name="robots" content="index, follow">
-  
-  <meta property="og:title" content="מכרזים? אל תילחם לבד — עו&quot;ד ד&quot;ר (מדעי המידע) יוסף סולומון">
-  <meta property="og:description" content="25 שנות ניסוח אסטרטגי מול גופים ממשלתיים ענקיים. משרד בוטיק לעריכת כתבי טענות, סיווגי פטור וייעוץ במכרזים ציבוריים. פתוח בימי שישי, 08:00–13:00, לתיקים בודדים בלבד. קבעו פגישה ממוקדת.">
-  <meta property="og:type" content="website">
+    <meta property="og:type" content="website">
   <meta property="og:locale" content="he_IL">
   
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="מכרזים? אל תילחם לבד — עו&quot;ד ד&quot;ר (מדעי המידע) יוסף סולומון">
-  <meta name="twitter:description" content="25 שנות ניסוח אסטרטגי מול גופים ממשלתיים ענקיים. משרד בוטיק לעריכת כתבי טענות, סיווגי פטור וייעוץ במכרזים ציבוריים. פתוח בימי שישי, 08:00–13:00, לתיקים בודדים בלבד. קבעו פגישה ממוקדת.">
-  <link rel="stylesheet" href="/styles.css">
+  
+  
+  
+  
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <style>
     .skip-link { position: absolute; top: 0; left: 0; transform: translateY(-200%); padding: 12px 18px; background: var(--bg-dark, #1a1a1a); color: var(--text-light, #fff); font-weight: 600; border-radius: 0 0 8px 0; z-index: 10000; }
@@ -785,6 +684,97 @@
   }
 }
 </style>
+    <link rel="stylesheet" href="/styles.css">
+    <script>window.ZAPPY_WEBSITE_ID = "03b54d7b-caf0-41af-aada-270f3b147ab4"; window.ZAPPY_API_BASE = "https://api.zappy5.com";</script>
+
+    <style id="zappy-dropdown-submenu-styles">
+      /* ========== DESKTOP DROPDOWN SUBMENU STYLES ========== */
+      /* Base styles for dropdown submenus - parent must be positioned */
+      .nav-menu li:has(.sub-menu), nav li:has(.sub-menu), .navbar li:has(.sub-menu), #navMenu li:has(.sub-menu) { position: relative; }
+      /* Submenu base - hidden by default */
+      .nav-menu .sub-menu, nav .sub-menu, .navbar .sub-menu, #navMenu .sub-menu { display: block !important; position: absolute !important; top: 100%; left: 0; min-width: 220px; background: white; border-radius: 8px; box-shadow: 0 8px 25px rgba(0,0,0,0.15); padding: 8px 0; opacity: 0; visibility: hidden; transform: translateY(10px); transition: all 0.3s ease; z-index: 1000; list-style: none; pointer-events: none; }
+      /* CRITICAL: Desktop hover styles to show dropdown */
+      .nav-menu li:hover > .sub-menu, nav li:hover > .sub-menu, .navbar li:hover > .sub-menu, #navMenu li:hover > .sub-menu { opacity: 1 !important; visibility: visible !important; transform: translateY(0) !important; pointer-events: auto !important; }
+      /* Submenu item styling */
+      .sub-menu li { list-style: none; margin: 0; padding: 0; }
+      .sub-menu a { display: block !important; padding: 10px 16px !important; color: var(--text-dark, #333) !important; font-weight: 500; text-decoration: none; white-space: nowrap; transition: background-color 0.2s; }
+      .sub-menu .zappy-nav-child > a { padding-left: 28px !important; font-size: 0.9em !important; opacity: 0.85 !important; }
+      [dir="rtl"] .sub-menu .zappy-nav-child > a, html[lang="he"] .sub-menu .zappy-nav-child > a, html[lang="ar"] .sub-menu .zappy-nav-child > a { padding-left: 10px !important; padding-right: 28px !important; }
+      .sub-menu .zappy-nav-parent > a { font-weight: 600 !important; }
+      .sub-menu a:hover { background-color: #f5f5f5; }
+      /* RTL (Hebrew/Arabic) dropdown positioning */
+      [dir="rtl"] .nav-menu .sub-menu, [dir="rtl"] nav .sub-menu, [dir="rtl"] .navbar .sub-menu, html[lang="he"] .nav-menu .sub-menu, html[lang="he"] nav .sub-menu, html[lang="he"] .navbar .sub-menu, html[lang="ar"] .nav-menu .sub-menu, html[lang="ar"] nav .sub-menu, html[lang="ar"] .navbar .sub-menu { left: auto !important; right: 0 !important; }
+      /* Hide empty dropdown menus (exclude catalog sub-menus that use <a> children instead of <li>) */
+      .sub-menu:empty, .sub-menu:not(:has(li:not(.zappy-hidden-menu-item))):not(:has(> a)), .sub-menu:not(:has(li)):not(:has(> a)) { display: none !important; opacity: 0 !important; visibility: hidden !important; pointer-events: none !important; }
+      /* Desktop: show submenu on Menu Group hover */
+      li:has(.menu-group-title):hover > .sub-menu { opacity: 1 !important; visibility: visible !important; transform: translateY(0) !important; pointer-events: auto !important; }
+      /* Menu Group title styling */
+      .nav-menu > li > .menu-group-title, #navMenu > li > .menu-group-title { display: inline-block; padding: 0.5rem 1rem; cursor: default; user-select: none; }
+      
+      /* ========== MOBILE SUBMENU STYLES ========== */
+      @media (max-width: 768px) {
+        .nav-menu .sub-menu, nav .sub-menu, .navbar .sub-menu, #navMenu .sub-menu { position: static !important; transform: none !important; box-shadow: none !important; background: transparent !important; max-height: 0; overflow: hidden; opacity: 0; visibility: hidden; transition: max-height 0.3s ease, opacity 0.3s ease; padding: 0 !important; border-radius: 0 !important; }
+        .navbar .sub-menu.mobile-expanded, .nav-menu .sub-menu.mobile-expanded, #navMenu .sub-menu.mobile-expanded { max-height: none !important; overflow-y: visible !important; opacity: 1 !important; visibility: visible !important; padding: 8px 0 8px 16px !important; }
+        [dir="rtl"] .sub-menu.mobile-expanded, html[lang="he"] .sub-menu.mobile-expanded { padding: 8px 16px 8px 0 !important; }
+        /* Disable hover behavior on mobile */
+        .nav-menu li:hover > .sub-menu, nav li:hover > .sub-menu, .navbar li:hover > .sub-menu, #navMenu li:hover > .sub-menu { opacity: 0; visibility: hidden; pointer-events: none; }
+        .nav-menu li > .sub-menu.mobile-expanded, nav li > .sub-menu.mobile-expanded, .navbar li > .sub-menu.mobile-expanded, #navMenu li > .sub-menu.mobile-expanded { opacity: 1 !important; visibility: visible !important; pointer-events: auto !important; }
+        .nav-menu li:has(.sub-menu), nav li:has(.sub-menu), .navbar li:has(.sub-menu), #navMenu li:has(.sub-menu) { display: flex !important; flex-wrap: wrap !important; align-items: center !important; position: relative !important; min-height: 44px !important; }
+        .nav-menu li:has(.sub-menu) > a, nav li:has(.sub-menu) > a, .navbar li:has(.sub-menu) > a, #navMenu li:has(.sub-menu) > a { flex: 1 !important; min-width: 0 !important; }
+        .nav-menu li:has(.sub-menu) > .menu-group-title, nav li:has(.sub-menu) > .menu-group-title, .navbar li:has(.sub-menu) > .menu-group-title, #navMenu li:has(.sub-menu) > .menu-group-title { flex: 1 !important; min-width: 0 !important; padding: 0 !important; line-height: inherit !important; }
+        .nav-menu li:has(.sub-menu) > .sub-menu, nav li:has(.sub-menu) > .sub-menu, .navbar li:has(.sub-menu) > .sub-menu, #navMenu li:has(.sub-menu) > .sub-menu { flex-basis: 100% !important; width: 100% !important; }
+        .nav-menu li:has(.sub-menu) > a [class*="chevron"], .nav-menu li:has(.sub-menu) > a [class*="arrow"], .nav-menu li:has(.sub-menu) > a .fa-chevron-down, .nav-menu li:has(.sub-menu) > a .fa-angle-down, nav li:has(.sub-menu) > a [class*="chevron"], nav li:has(.sub-menu) > a [class*="arrow"], #navMenu li:has(.sub-menu) > a [class*="chevron"], #navMenu li:has(.sub-menu) > a [class*="arrow"] { display: none !important; visibility: hidden !important; }
+        .mobile-submenu-toggle { display: flex !important; align-items: center !important; justify-content: center !important; width: 44px !important; height: auto !important; background: transparent !important; border: none !important; cursor: pointer !important; color: var(--text-light) !important; position: static !important; flex-shrink: 0 !important; align-self: stretch !important; z-index: 2 !important; padding: 0 !important; margin: 0 !important; }
+        .mobile-submenu-toggle::after { content: '' !important; width: 0 !important; height: 0 !important; border-left: 6px solid transparent !important; border-right: 6px solid transparent !important; border-top: 7px solid currentColor !important; transition: transform 0.3s ease !important; }
+        .mobile-submenu-toggle.expanded::after { transform: rotate(180deg) !important; }
+        .sub-menu a { padding: 10px 0 !important; display: block !important; color: var(--text-light) !important; white-space: normal !important; }
+        .sub-menu .zappy-nav-child > a { padding-left: 28px !important; font-size: 0.9em !important; opacity: 0.85 !important; }
+        [dir="rtl"] .sub-menu .zappy-nav-child > a, html[lang="he"] .sub-menu .zappy-nav-child > a, html[lang="ar"] .sub-menu .zappy-nav-child > a { padding-left: 0 !important; padding-right: 28px !important; }
+        .sub-menu .zappy-nav-parent > a { font-weight: 600 !important; }
+        .nav-menu.active, #navMenu.active { max-width: 100vw !important; overflow-x: hidden !important; box-sizing: border-box !important; }
+        .navbar .sub-menu li a, nav.navbar .sub-menu li a, .zappy-products-dropdown .sub-menu a { color: var(--text-light) !important; }
+      }
+      @media (min-width: 769px) { .mobile-submenu-toggle { display: none !important; } }
+    </style>
+
+    <style id="zappy-widget-visibility">
+      html[dir="rtl"] .whatsapp-float { right: 20px !important; left: auto !important; }
+      html[dir="ltr"] .whatsapp-float, html:not([dir]) .whatsapp-float { left: 20px !important; right: auto !important; }
+      html[dir="rtl"] #mic-access-tool-general-button, html[dir="rtl"] .mic-access-tool-general-button,
+      html[dir="rtl"] #mic-init-access-tool .mic-access-tool-general-button,
+      html[dir="rtl"] #mic-init-access-tool #mic-access-tool-general-button,
+      html[dir="rtl"] ._access-icon { left: 20px !important; right: auto !important; }
+      html[dir="ltr"] #mic-access-tool-general-button, html[dir="ltr"] .mic-access-tool-general-button,
+      html[dir="ltr"] #mic-init-access-tool .mic-access-tool-general-button,
+      html[dir="ltr"] #mic-init-access-tool #mic-access-tool-general-button,
+      html[dir="ltr"] ._access-icon,
+      html:not([dir]) #mic-access-tool-general-button, html:not([dir]) .mic-access-tool-general-button,
+      html:not([dir]) #mic-init-access-tool .mic-access-tool-general-button,
+      html:not([dir]) #mic-init-access-tool #mic-access-tool-general-button,
+      html:not([dir]) ._access-icon { right: 20px !important; left: auto !important; }
+      @media (max-width: 768px) { .whatsapp-float { display: flex !important; } }
+      @media (min-width: 769px) { .whatsapp-float { display: flex !important; } }
+      @media (max-width: 768px) {
+        #mic-access-tool-general-button, .mic-access-tool-general-button,
+        #mic-init-access-tool .mic-access-tool-general-button, #mic-init-access-tool #mic-access-tool-general-button,
+        ._access-icon { display: flex !important; visibility: visible !important; opacity: 1 !important; pointer-events: auto !important; }
+        #mic-access-tool-box.opened-mic-access-tool, .mic-access-tool-box.opened-mic-access-tool,
+        #mic-init-access-tool #mic-access-tool-box.opened-mic-access-tool {
+          visibility: visible !important; opacity: 1 !important; pointer-events: auto !important;
+        }
+      }
+      @media (min-width: 769px) {
+        #mic-access-tool-general-button, .mic-access-tool-general-button,
+        #mic-init-access-tool .mic-access-tool-general-button, #mic-init-access-tool #mic-access-tool-general-button,
+        ._access-icon { display: flex !important; visibility: visible !important; opacity: 1 !important; pointer-events: auto !important; }
+        #mic-access-tool-box.opened-mic-access-tool, .mic-access-tool-box.opened-mic-access-tool,
+        #mic-init-access-tool #mic-access-tool-box.opened-mic-access-tool {
+          visibility: visible !important; opacity: 1 !important; pointer-events: auto !important;
+        }
+      }
+    </style>
+</head>
+<body>
 <a class="skip-link" href="#main">דלג לתוכן הראשי</a>
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
@@ -804,7 +794,7 @@
 
   <div class="nav-container">
     <div class="nav-right-group"><div class="nav-brand">
-      <a href="/" class="logo-link"><img class="logo" src="/assets/site-----image-1.webp?v=1783044811702-n59671" alt="עו" ד="" ד"ר="" (מדעי="" המידע)="" יוסף="" סולומון"=""></a>
+      <a href="/" class="logo-link"><img class="logo" src="/assets/legal-services-logo.png?v=1783049415553-9sogbb" alt="עו" ד="" ד"ר="" (מדעי="" המידע)="" יוסף="" סולומון"=""></a>
     </div><ul class="nav-menu" id="navMenu"><li><a href="#about">ייחודיות המשרד</a></li><li><a href="#services">שירותים משפטיים</a></li></ul></div>
     
     
@@ -1311,7 +1301,7 @@
         <div class="index-about-section__content" id="zappy-section-22">
             
             
-            <p class="index-about-section__paragraph" style="">משרד עורך הדין ודוקטור (מדעי המידע) יוסף סולומון הינו משרד בוטיק לעריכת דין ולייעוץ משפטי העוסק בדיני מכרזים, סיווגי פטור ממכרז והתקשרויות ציבוריות, משפט אזרחי, הגנת הצרכן וליווי בהליכי תביעות קטנות, ומעניק ייעוץ ושירותים משפטיים ליחידים ולצרכנים שמבקשים לעמוד על זכויותיהם מול המערכת הבירוקרטית והתאגידים הגדולים, וכן לעסקים זעירים, קטנים ובינוניים שמבקשים להתמודד בצורה נכונה במכרזים פומביים, הליכים תחרותיים לקבלת הצעות ולבחון אפשרויות לפי דין להתקשרות פטורה ממכרז. הליווי המשפטי שמעניק עו"ד וד"ר (מדעי המידע) יוסף סולומון ללקוחותיו הוא אישי, סמכותי ומדויק, תוך התאמת האסטרטגיה המשפטית והמידענית למפת האינטרסים של לקוחותיו.<br><br>עו"ד וד"ר (מדעי המידע) יוסף סולומון הוסמך לעריכת דין בשנת 2002 ומאז, במשך למעלה משני עשורים, צבר ניסיון משפטי עשיר במגזר הציבורי והעסקי, בתחומי מכרזים ציבוריים, חוזים, בנקאות, משפט אזרחי, צרכנות ותביעות קטנות. עו"ד וד"ר (מדעי המידע) יוסף סולומון הוא בעל תואר ראשון במשפטים (בהצטיינות), תואר ראשון במינהל עסקים (בהצטיינות), תואר שני במשפטים, ותואר שלישי (דוקטור) במדעי המידע ומרצה פעיל לאינפורמטיקה משפטית במחלקה למדעי המידע ויישומי בינה מלאכותית באוניברסיטת בר-אילן. כישוריו והשכלתו של עו"ד וד"ר (מדעי המידע) יוסף סולומון, ניסיונו המשפטי הענף ומיומנויותיו האקדמיות והמעשיות בתחום האינפורמטיקה המשפטית מביאים לפרקטיקה ערך מוסף ייחודי ומאפשרים לעו"ד ד"ר (מדעי המידע) יוסף סולומון לאתר מידע משפטי חשוב, ולעיתים נסתר וחריג, שנחוץ לשמירת זכויות לקוחותיו, למענה על הדקויות המשפטיות הנדרשות בתיק ולביסוס הטיעונים המתאימים ביותר עבור לקוחותיו מול המערכת הבירוקרטית והתאגידים הגדולים.&nbsp;<br><br>משרד עו"ד ד"ר (מדעי המידע) יוסף סולומון פועל גם במישור הציבורי לפיתוח אוריינות משפטית על דרך קיום הרצאות, סדנאות פעילות והדרכות מעשיות במוסדות חינוך על-יסודי ולקהל הרחב, בשימוש יעיל ומושכל במאגרי מידע משפטיים ובכלי בינה מלאכותית (AI) לצורך שמירה על זכויות אישיות וצרכניות. בנוסף, עו"ד וד"ר (מדעי המידע) יוסף סולומון פועל במרחב הפראדיפלומטי ומקדם קשרי ידידות ושיתופי פעולה בתחומי התרבות, החינוך, החדשנות והחוסן האקלימי בין ישראל לבין מדינת האי ניואה (Niue) שבדרום האוקיינוס השקט.</p>
+            <div class="zappy-inserted-element" id="zappy-element-1783049444939-050h39fe5" data-element-id="zappy-element-1783049444939-050h39fe5" data-element-type="h2" style="width: 100%;"><h2 class="font-bold" data-element-type="h2" data-element-id="zappy-element-1783049444939-050h39fe5" id="zappy-element-1783049444939-050h39fe5" style=""><span style="color: #b3b3b3 !important">נעים להכיר!</span></h2></div><p class="index-about-section__paragraph" style="">משרד עורך הדין ודוקטור (מדעי המידע) יוסף סולומון הינו משרד בוטיק לעריכת דין ולייעוץ משפטי העוסק בדיני מכרזים, סיווגי פטור ממכרז והתקשרויות ציבוריות, משפט אזרחי, הגנת הצרכן וליווי בהליכי תביעות קטנות, ומעניק ייעוץ ושירותים משפטיים ליחידים ולצרכנים שמבקשים לעמוד על זכויותיהם מול המערכת הבירוקרטית והתאגידים הגדולים, וכן לעסקים זעירים, קטנים ובינוניים שמבקשים להתמודד בצורה נכונה במכרזים פומביים, הליכים תחרותיים לקבלת הצעות ולבחון אפשרויות לפי דין להתקשרות פטורה ממכרז. הליווי המשפטי שמעניק עו"ד וד"ר (מדעי המידע) יוסף סולומון ללקוחותיו הוא אישי, סמכותי ומדויק, תוך התאמת האסטרטגיה המשפטית והמידענית למפת האינטרסים של לקוחותיו.<br><br>עו"ד וד"ר (מדעי המידע) יוסף סולומון הוסמך לעריכת דין בשנת 2002 ומאז, במשך למעלה משני עשורים, צבר ניסיון משפטי עשיר במגזר הציבורי והעסקי, בתחומי מכרזים ציבוריים, חוזים, בנקאות, משפט אזרחי, צרכנות ותביעות קטנות. עו"ד וד"ר (מדעי המידע) יוסף סולומון הוא בעל תואר ראשון במשפטים (בהצטיינות), תואר ראשון במינהל עסקים (בהצטיינות), תואר שני במשפטים, ותואר שלישי (דוקטור) במדעי המידע ומרצה פעיל לאינפורמטיקה משפטית במחלקה למדעי המידע ויישומי בינה מלאכותית באוניברסיטת בר-אילן. כישוריו והשכלתו של עו"ד וד"ר (מדעי המידע) יוסף סולומון, ניסיונו המשפטי הענף ומיומנויותיו האקדמיות והמעשיות בתחום האינפורמטיקה המשפטית מביאים לפרקטיקה ערך מוסף ייחודי ומאפשרים לעו"ד ד"ר (מדעי המידע) יוסף סולומון לאתר מידע משפטי חשוב, ולעיתים נסתר וחריג, שנחוץ לשמירת זכויות לקוחותיו, למענה על הדקויות המשפטיות הנדרשות בתיק ולביסוס הטיעונים המתאימים ביותר עבור לקוחותיו מול המערכת הבירוקרטית והתאגידים הגדולים.&nbsp;<br><br>משרד עו"ד ד"ר (מדעי המידע) יוסף סולומון פועל גם במישור הציבורי לפיתוח אוריינות משפטית על דרך קיום הרצאות, סדנאות פעילות והדרכות מעשיות במוסדות חינוך על-יסודי ולקהל הרחב, בשימוש יעיל ומושכל במאגרי מידע משפטיים ובכלי בינה מלאכותית (AI) לצורך שמירה על זכויות אישיות וצרכניות. בנוסף, עו"ד וד"ר (מדעי המידע) יוסף סולומון פועל במרחב הפראדיפלומטי ומקדם קשרי ידידות ושיתופי פעולה בתחומי התרבות, החינוך, החדשנות והחוסן האקלימי בין ישראל לבין מדינת האי ניואה (Niue) שבדרום האוקיינוס השקט.</p>
             
             <p class="index-about-section__paragraph" style="">המשרד פתוח בימי שישי בלבד (08:00–13:00) ומקבל מספר לקוחות מצומצם ונבחר, כדי להבטיח שניתנת תשומת לב מלאה לכל לקוח. זוהי בחירה מודעת של מצוינות על פני נפח.</p>
 
@@ -1332,7 +1322,7 @@
         <!-- END Column: Visual Evidence -->
         <div class="index-about-section__visual" id="zappy-section-23">
             <div class="index-about-section__image-tile" id="zappy-section-24">
-                <div data-zappy-zoom-wrapper="true" data-element-id="img-1783042745069-k3ie73ubj" data-element-type="image" data-zappy-zoom-wrapper-width="511px" data-zappy-zoom-wrapper-height="341px" data-zappy-zoom-wrapper-width-mode="card-slot" data-zappy-zoom-wrapper-align="center" style="position: relative !important; overflow: hidden !important; width: 100% !important; max-width: 100% !important; margin-left: auto !important; margin-right: auto !important; height: 341px !important; display: block !important; min-height: 0px !important; max-height: none !important; padding-bottom: 0px !important;" data-zappy-card-slot-fill="1" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true"><img decoding="async" data-placeholder="index-about-image-1" data-context="A top-down photograph of annotated Israeli public procurement documents, legal briefs, and a cup of black coffee on a dark wooden desk. The papers show handwritten red-ink corrections and yellow highlighter marks. The scene feels archival, meticulous, and institutional — not a courtroom, but the back office where strategy is drafted." width="600" height="400" src="/assets/site-index-service-image-1-1783045518435-8fdav6.webp?v=1783045520856" alt="מסמכי מכרז ציבורי מוערים על שולחן עבודה כהה" data-element-type="image" data-element-id="img-1783042745069-k3ie73ubj" style="display: block !important; border-radius: 8px; object-position: 5% 22% !important; object-fit: cover !important; width: 110% !important; height: 290.898% !important; max-width: none !important; margin: 0px !important; left: -0.5% !important; top: -41.9976% !important; max-height: none !important; position: absolute !important;" data-zappy-object-position="5% 22%" data-zappy-zoom="1.1"></div>
+                <div data-zappy-zoom-wrapper="true" data-element-id="img-1783042745069-k3ie73ubj" data-element-type="image" data-zappy-zoom-wrapper-width="511px" data-zappy-zoom-wrapper-height="341px" data-zappy-zoom-wrapper-width-mode="card-slot" data-zappy-zoom-wrapper-align="center" style="position: relative !important; overflow: hidden !important; width: 100% !important; max-width: 100% !important; margin-left: auto !important; margin-right: auto !important; height: 341px !important; display: block !important; min-height: 0px !important; max-height: none !important; padding-bottom: 0px !important;" data-zappy-card-slot-fill="1" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true"><img decoding="async" data-placeholder="index-about-image-1" data-context="A top-down photograph of annotated Israeli public procurement documents, legal briefs, and a cup of black coffee on a dark wooden desk. The papers show handwritten red-ink corrections and yellow highlighter marks. The scene feels archival, meticulous, and institutional — not a courtroom, but the back office where strategy is drafted." width="600" height="400" src="/assets/site-index-service-image-1-1783045518435-8fdav6.webp?v=1783045520856" alt="מסמכי מכרז ציבורי מוערים על שולחן עבודה כהה" data-element-type="image" data-element-id="img-1783042745069-k3ie73ubj" style="border-radius: 8px; display: block !important; object-position: 5% 22% !important; object-fit: cover !important; width: 110% !important; height: 290.898% !important; max-width: none !important; margin: 0px !important; left: -0.5% !important; top: -41.9976% !important; max-height: none !important; position: absolute !important;" data-zappy-object-position="5% 22%" data-zappy-zoom="1.1"></div>
             </div>
             <!-- Decorative paper backplate peeking from END-bottom -->
             <div class="index-about-section__paper-backplate" aria-hidden="true" id="zappy-section-25"></div>
@@ -1563,9 +1553,7 @@
     <i class="fab fa-whatsapp"></i>
   </a>
   
-  <script src="/script.js"></script>
-
-    <div data-integration="accessibility:toolbar"></div>
+  <div data-integration="accessibility:toolbar"></div>
 
     <script src="/script.js"></script>
 
