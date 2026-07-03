@@ -299,11 +299,11 @@ Description: 25 שנות ניסוח אסטרטגי מול גופים ממשלת�
 #### צור קשר
 
 
-- [business_email]
+- Dr.YosefSolomon@gmail.com
 
-- [business_phone]
+- 0523236556
 
-- [business_address]
+- קרן היסוד 21, ראשון לציון, ישראל
 
 
 
@@ -346,7 +346,6 @@ URL: https://example.com/privacy
 Description: מדיניות הפרטיות שלנו - כיצד אנו אוספים, משתמשים ומגנים על המידע שלכם
 
 מדיניות פרטיות
-
 
 
 
@@ -496,11 +495,11 @@ Description: מדיניות הפרטיות שלנו - כיצד אנו אוספי
 
 - חברה: עו"ד ד"ר (מדעי המידע) יוסף סולומון
 
-- אימייל: [business_email]
+- אימייל: Dr.YosefSolomon@gmail.com
 
-- טלפון: [business_phone]
+- טלפון: 0523236556
 
-- כתובת: [business_address]
+- כתובת: קרן היסוד 21, ראשון לציון, ישראל
 
 
 
@@ -538,11 +537,11 @@ Description: מדיניות הפרטיות שלנו - כיצד אנו אוספי
 #### צור קשר
 
 
-- [business_email]
+- Dr.YosefSolomon@gmail.com
 
-- [business_phone]
+- 0523236556
 
-- [business_address]
+- קרן היסוד 21, ראשון לציון, ישראל
 
 
 
@@ -585,7 +584,6 @@ URL: https://example.com/accessibility
 Description: הצהרת הנגישות שלנו - מחויבותנו לנגישות דיגיטלית
 
 הצהרת נגישות
-
 
 
 
@@ -743,9 +741,9 @@ Description: הצהרת הנגישות שלנו - מחויבותנו לנגיש�
 
 - חברה: עו"ד ד"ר (מדעי המידע) יוסף סולומון
 
-- אימייל: [business_email]
+- אימייל: Dr.YosefSolomon@gmail.com
 
-- טלפון: [business_phone]
+- טלפון: 0523236556
 
 
 
@@ -786,11 +784,11 @@ Description: הצהרת הנגישות שלנו - מחויבותנו לנגיש�
 #### צור קשר
 
 
-- [business_email]
+- Dr.YosefSolomon@gmail.com
 
-- [business_phone]
+- 0523236556
 
-- [business_address]
+- קרן היסוד 21, ראשון לציון, ישראל
 
 
 
@@ -833,7 +831,6 @@ URL: https://example.com/terms
 Description: תנאי השימוש באתר - הזכויות והחובות של המשתמשים
 
 תנאי שימוש
-
 
 
 
@@ -1014,11 +1011,11 @@ Description: תנאי השימוש באתר - הזכויות והחובות של
 
 - חברה: עו"ד ד"ר (מדעי המידע) יוסף סולומון
 
-- אימייל: [business_email]
+- אימייל: Dr.YosefSolomon@gmail.com
 
-- טלפון: [business_phone]
+- טלפון: 0523236556
 
-- כתובת: [business_address]
+- כתובת: קרן היסוד 21, ראשון לציון, ישראל
 
 
 
@@ -1053,11 +1050,11 @@ Description: תנאי השימוש באתר - הזכויות והחובות של
 #### צור קשר
 
 
-- [business_email]
+- Dr.YosefSolomon@gmail.com
 
-- [business_phone]
+- 0523236556
 
-- [business_address]
+- קרן היסוד 21, ראשון לציון, ישראל
 
 
 
@@ -1226,11 +1223,11 @@ Description: עו"ד ד"ר (מדעי המידע) יוסף סולומון - תו�
 #### צור קשר
 
 
-- [business_email]
+- Dr.YosefSolomon@gmail.com
 
-- [business_phone]
+- 0523236556
 
-- [business_address]
+- קרן היסוד 21, ראשון לציון, ישראל
 
 
 
