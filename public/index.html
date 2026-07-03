@@ -539,12 +539,11 @@
   margin-inline-end: auto;
 }
 
-/* Grid */
 .index-services-section__grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 28px;
-  margin-bottom: 48px;
+  margin-bottom: 0;
 }
 
 /* Card */
@@ -1314,16 +1313,14 @@
     <div class="index-services-section__header">
       <h2 class="index-services-section__title">תחומי עיסוק</h2>
       <div class="index-services-section__divider" aria-hidden="true"></div>
-      <p class="index-services-section__subtitle">
-        המשרד מתמקד במתן ייעוץ משפטי מקצועי, ניסוח מסמכים ואסטרטגיה – ללא ייצוג בבתי משפט. כל פנייה נבחנת לגופה, וכל תוצר נכתב מאפס תוך הקפדה על בקרה אנושית מלאה.
-      </p>
+      
     </div>
 
     <!-- Services Grid -->
     <div class="index-services-section__grid">
       
       <!-- Card 1: Procurement -->
-      <article class="index-services-section__card">
+      <article class="index-services-section__card" data-grid-item-index="0">
         <div class="index-services-section__card-accent" aria-hidden="true"></div>
         <div class="index-services-section__card-icon">
           <svg data-element-type="icon" data-icon-type="svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
@@ -1345,7 +1342,7 @@
       </article>
 
       <!-- Card 2: Small Claims -->
-      <article class="index-services-section__card">
+      <article class="index-services-section__card" data-grid-item-index="1">
         <div class="index-services-section__card-accent" aria-hidden="true"></div>
         <div class="index-services-section__card-icon">
           <svg data-element-type="icon" data-icon-type="svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
@@ -1365,7 +1362,7 @@
       </article>
 
       <!-- Card 3: B2B Research -->
-      <article class="index-services-section__card">
+      <article class="index-services-section__card" data-grid-item-index="2">
         <div class="index-services-section__card-accent" aria-hidden="true"></div>
         <div class="index-services-section__card-icon">
           <svg data-element-type="icon" data-icon-type="svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
@@ -1384,11 +1381,43 @@
         </ul>
       </article>
 
-    </div>
+      <!-- Card 4: Bureaucracy Assistance -->
+      <article class="index-services-section__card" data-grid-item-index="3">
+        <div class="index-services-section__card-accent" aria-hidden="true"></div>
+        <div class="index-services-section__card-icon">
+          <svg data-element-type="icon" data-icon-type="svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+          </svg>
+        </div>
+        <h3 class="index-services-section__card-title">סיוע משפטי מול בירוקרטיה ציבורית</h3>
+        <ul class="index-services-section__card-list">
+          <li>מתן ייעוץ וסיוע משפטי להתנהלות נבונה מול מנגנונים בירוקרטיים</li>
+          <li>ניתוח משפטי-מידעני של החלטות או חובות שנקבעו על ידי גופים ציבוריים</li>
+          <li>עריכת פניות רשמיות בכתב למיצוי זכויות אזרחיות מלאות</li>
+          <li>ליווי בהתנהלות מול גופים שלטוניים ורשויות מקומיות</li>
+          <li>פענוח שפה בירוקרטית והנגשת מידע משפטי מורכב</li>
+        </ul>
+      </article>
 
-    <!-- Supporting Image -->
-    <div class="index-services-section__image-wrapper">
-      <img data-context="A clean, minimalist legal desk setup in a modern Israeli boutique law office. A polished dark wood desk holds a neatly stacked set of bound legal briefs and a gold-nib pen. Soft natural light falls across the papers, casting subtle shadows. The background is slightly blurred, suggesting a library of law books. The atmosphere is calm, precise, and authoritative, free of clutter." width="600" height="400" src="/assets/legal-services-section-בית-services-index-services-image-1.webp" alt="שולחן עבודה משפטי נקי ומדויק במשרד עורכי דין בוטיק" class="index-services-section__image">
+      <!-- Card 5: Lectures & Workshops -->
+      <article class="index-services-section__card" data-grid-item-index="4">
+        <div class="index-services-section__card-accent" aria-hidden="true"></div>
+        <div class="index-services-section__card-icon">
+          <svg data-element-type="icon" data-icon-type="svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+            <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+          </svg>
+        </div>
+        <h3 class="index-services-section__card-title">הרצאות, סדנאות ואוריינות מידע</h3>
+        <ul class="index-services-section__card-list">
+          <li>הרצאות וסדנאות פעילות במוסדות חינוך על-יסודי</li>
+          <li>הקניית ארגז כלים יישומי לבני נוער לקראת גיל 18</li>
+          <li>פיתוח אוריינות משפטית בשימוש מושכל במאגרי מידע משפטיים</li>
+          <li>הדרכות מעשיות לשימוש בכלי בינה מלאכותית (AI) לשמירה על זכויות</li>
+          <li>מפגשי העשרה לבוגרים בתחומי הגנת הצרכן וזכויות אישיות</li>
+        </ul>
+      </article>
+
     </div>
 
   </div>
