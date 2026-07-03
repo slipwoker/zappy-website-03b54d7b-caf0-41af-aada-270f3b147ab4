@@ -7,25 +7,25 @@
 ## Pages
 
 ### בית
-https://example.com
+https://dr-yosef-solomon-adv-info-sci.zappy5.app
 25 שנות ניסוח אסטרטגי מול גופים ממשלתיים ענקיים. משרד בוטיק לעריכת כתבי טענות, סיווגי פטור וייעוץ במכרזים ציבוריים. פתוח בימי שישי, 08:00–13:00, לתיקים בודדים בלבד. קבעו פגישה ממוקדת.
 
 ### תודה על פנייתך
-https://example.com/thank-you
+https://dr-yosef-solomon-adv-info-sci.zappy5.app/thank-you
 עו"ד ד"ר (מדעי המידע) יוסף סולומון - תודה על פנייתך
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://example.com/privacy
+https://dr-yosef-solomon-adv-info-sci.zappy5.app/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://example.com/terms
+https://dr-yosef-solomon-adv-info-sci.zappy5.app/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://example.com/accessibility
+https://dr-yosef-solomon-adv-info-sci.zappy5.app/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -58,6 +58,6 @@ Legal Services
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://example.com/sitemap.xml
-- Robots: https://example.com/robots.txt
-- Flattened page text (for LLMs): https://example.com/llms-full.txt
+- Sitemap (XML): https://dr-yosef-solomon-adv-info-sci.zappy5.app/sitemap.xml
+- Robots: https://dr-yosef-solomon-adv-info-sci.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://dr-yosef-solomon-adv-info-sci.zappy5.app/llms-full.txt
