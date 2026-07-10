@@ -2,13 +2,13 @@
 
 Dr. Yosef Solomon is a dual-credentialed attorney (since 2002) and Doctor of Information Science, operating a deliberately small boutique legal practice open exclusively on Fridays (08:00–13:00) for a strictly limited caseload. With 25 years of hands-on expertise in public procurement law and exemption classifications, and a distinguished career as in-house legal counsel at Israel's largest government-linked corporations (Israel Electric Corporation, Bank Leumi, Israel Railways), he positions himself as a strategic navigator of bureaucratic complexity rather than a courtroom litigator. The firm's value proposition is entirely writing- and strategy-based — no litigation, no court appearances — with a sharp focus on leveling the playing field against institutional power through precision drafting, deep legal research, and AI-hallucination-free human-verified briefs. The brand voice is terse, incisive, results-oriented, and free of marketing clichés.
 
-Source: https://dr-yosef-solomon-adv-info-sci.zappy5.app
+Source: https://dr-yosef-solomon-attorney-info.zappy5.app
 
 ---
 
 ## עו"ד וד"ר (מדעי המידע) יוסף סולומון
 
-URL: https://dr-yosef-solomon-adv-info-sci.zappy5.app
+URL: https://dr-yosef-solomon-attorney-info.zappy5.app
 Description: עו״ד ד״ר (מדעי המידע) יוסף סולומון. משרד בוטיק לעריכת דין ולייעוץ משפטי במכרזים, פטור ממכרז, משפט אזרחי, הגנת הצרכן ותביעות קטנות. מומחיות באיתור מידע משפטי, מחקר משפטי־מידעני יסודי, איתור דקויות משפטיות, אינפורמטיקה משפטית ו־ Legal AI.
 
 עו"ד וד"ר (מדעי המידע) יוסף סולומון
@@ -448,7 +448,7 @@ Dr.YosefSolomon@gmail.com
 
 ## מדיניות פרטיות
 
-URL: https://dr-yosef-solomon-adv-info-sci.zappy5.app/privacy
+URL: https://dr-yosef-solomon-attorney-info.zappy5.app/privacy
 Description: מדיניות הפרטיות שלנו - כיצד אנו אוספים, משתמשים ומגנים על המידע שלכם
 
 מדיניות פרטיות
@@ -671,7 +671,7 @@ Dr.YosefSolomon@gmail.com
 
 ## הצהרת נגישות
 
-URL: https://dr-yosef-solomon-adv-info-sci.zappy5.app/accessibility
+URL: https://dr-yosef-solomon-attorney-info.zappy5.app/accessibility
 Description: הצהרת הנגישות שלנו - מחויבותנו לנגישות דיגיטלית
 
 הצהרת נגישות
@@ -910,7 +910,7 @@ Dr.YosefSolomon@gmail.com
 
 ## תנאי שימוש
 
-URL: https://dr-yosef-solomon-adv-info-sci.zappy5.app/terms
+URL: https://dr-yosef-solomon-attorney-info.zappy5.app/terms
 Description: תנאי השימוש באתר - הזכויות והחובות של המשתמשים
 
 תנאי שימוש
@@ -1157,7 +1157,7 @@ Dr.YosefSolomon@gmail.com
 
 ## תודה על פנייתך
 
-URL: https://dr-yosef-solomon-adv-info-sci.zappy5.app/thank-you
+URL: https://dr-yosef-solomon-attorney-info.zappy5.app/thank-you
 Description: עו"ד ד"ר (מדעי המידע) יוסף סולומון - תודה על פנייתך
 
 תודה על פנייתך

@@ -7,25 +7,25 @@
 ## Pages
 
 ### בית
-https://dr-yosef-solomon-adv-info-sci.zappy5.app
+https://dr-yosef-solomon-attorney-info.zappy5.app
 עו״ד ד״ר (מדעי המידע) יוסף סולומון. משרד בוטיק לעריכת דין ולייעוץ משפטי במכרזים, פטור ממכרז, משפט אזרחי, הגנת הצרכן ותביעות קטנות. מומחיות באיתור מידע משפטי, מחקר משפטי־מידעני יסודי, איתור דקויות משפטיות, אינפורמטיקה משפטית ו־ Legal AI.
 
 ### תודה על פנייתך
-https://dr-yosef-solomon-adv-info-sci.zappy5.app/thank-you
+https://dr-yosef-solomon-attorney-info.zappy5.app/thank-you
 עו"ד ד"ר (מדעי המידע) יוסף סולומון - תודה על פנייתך
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://dr-yosef-solomon-adv-info-sci.zappy5.app/privacy
+https://dr-yosef-solomon-attorney-info.zappy5.app/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://dr-yosef-solomon-adv-info-sci.zappy5.app/terms
+https://dr-yosef-solomon-attorney-info.zappy5.app/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://dr-yosef-solomon-adv-info-sci.zappy5.app/accessibility
+https://dr-yosef-solomon-attorney-info.zappy5.app/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -58,6 +58,6 @@ Legal Services
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://dr-yosef-solomon-adv-info-sci.zappy5.app/sitemap.xml
-- Robots: https://dr-yosef-solomon-adv-info-sci.zappy5.app/robots.txt
-- Flattened page text (for LLMs): https://dr-yosef-solomon-adv-info-sci.zappy5.app/llms-full.txt
+- Sitemap (XML): https://dr-yosef-solomon-attorney-info.zappy5.app/sitemap.xml
+- Robots: https://dr-yosef-solomon-attorney-info.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://dr-yosef-solomon-attorney-info.zappy5.app/llms-full.txt
