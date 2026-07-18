@@ -5555,6 +5555,10 @@ h1, h2, h3, h4, h5, h6 { font-family: 'Assistant', sans-serif; font-weight: 700;
   outline: 3px solid var(--accent-color, #B8922A);
   outline-offset: 3px;
 }
+
+#zappy-section-0 .hero-content {
+  display: none !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
