@@ -632,7 +632,225 @@
 
 
 
+<style data-zappy-section-v2-css="true">
+/* V2 Regenerated Section CSS */
+.index-hero-section {
+  position: relative;
+  background: var(--bg-light);
+  color: var(--text-dark);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 120px 24px 80px;
+  overflow: hidden;
+  direction: rtl;
+}
 
+/* Subtle scrim for depth – no photo, just a faint gradient to add dimension */
+.index-hero-section__scrim {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at 80% 20%, rgba(201, 168, 76, 0.06) 0%, transparent 60%),
+              radial-gradient(ellipse at 20% 80%, rgba(27, 43, 75, 0.04) 0%, transparent 60%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.index-hero-section__container {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.index-hero-section__content {
+  max-width: 800px;
+  margin-inline-start: auto;
+  margin-inline-end: 0;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+/* Gold underline decorative motif */
+.index-hero-section__gold-rule {
+  width: 60px;
+  height: 3px;
+  background: var(--accent);
+  border-radius: 2px;
+  margin-block-end: 8px;
+}
+
+/* Subtitle – H3 per hero hierarchy */
+.index-hero-section__subtitle {
+  font-family: 'Assistant', 'Inter', sans-serif;
+  font-size: 1.05rem;
+  font-weight: 400;
+  line-height: 1.8;
+  color: var(--text-muted);
+  margin: 0;
+  text-align: start;
+  max-width: 680px;
+}
+
+/* Main Headline */
+.index-hero-section__headline {
+  font-family: 'Frank Ruhl Libre', 'Noto Serif Hebrew', serif;
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  line-height: 1.15;
+  color: var(--primary);
+  margin: 0;
+  text-align: start;
+}
+
+/* Badges Row */
+.index-hero-section__badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: center;
+}
+
+.index-hero-section__badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 18px;
+  background: rgba(27, 43, 75, 0.04);
+  border: 1px solid var(--border-light);
+  border-radius: 100px;
+  font-family: 'Assistant', 'Inter', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--text-dark);
+  white-space: nowrap;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.index-hero-section__badge svg {
+  flex-shrink: 0;
+  color: var(--accent);
+}
+
+.index-hero-section__badge:hover {
+  background: rgba(27, 43, 75, 0.07);
+  border-color: var(--accent);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(27, 43, 75, 0.06);
+}
+
+/* CTA Button */
+.index-hero-section__cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 16px 36px;
+  background: var(--accent);
+  color: #FFFFFF;
+  border: none;
+  border-radius: 6px;
+  font-family: 'Assistant', 'Inter', sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 4px 16px rgba(201, 168, 76, 0.25);
+  margin-block-start: 8px;
+}
+
+.index-hero-section__cta svg {
+  flex-shrink: 0;
+  transition: transform 0.3s ease;
+}
+
+.index-hero-section__cta:hover {
+  background: linear-gradient(135deg, #C9A84C 0%, #E8C96A 100%);
+  box-shadow: 0 8px 32px rgba(201, 168, 76, 0.35);
+  transform: translateY(-2px);
+}
+
+.index-hero-section__cta:hover svg {
+  transform: translateX(-4px);
+}
+
+/* Responsive: Mobile */
+@media (max-width: 768px) {
+  .index-hero-section {
+    padding: 100px 16px 60px;
+    min-height: auto;
+    align-items: flex-start;
+  }
+
+  .index-hero-section__content {
+    max-width: 100%;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    gap: 24px;
+    align-items: flex-start;
+  }
+
+  .index-hero-section__headline {
+    font-size: 2rem;
+    line-height: 1.25;
+  }
+
+  .index-hero-section__subtitle {
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+
+  .index-hero-section__badges {
+    gap: 10px;
+  }
+
+  .index-hero-section__badge {
+    padding: 8px 14px;
+    font-size: 0.8rem;
+    gap: 6px;
+  }
+
+  .index-hero-section__badge svg {
+    width: 14px;
+    height: 14px;
+  }
+
+  .index-hero-section__cta {
+    padding: 14px 28px;
+    font-size: 0.95rem;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .index-hero-section__gold-rule {
+    width: 48px;
+    height: 2px;
+  }
+}
+
+/* Larger screens */
+@media (min-width: 1200px) {
+  .index-hero-section__headline {
+    font-size: 3.5rem;
+  }
+}
+/* ZAPPY_POSTGEN_GUARD_HERO_FONT_CAP:index-hero */
+.hero h1, .hero-section h1, [class*="hero-"] h1, [class~="hero"] h1, .hero .hero-title, .hero-title { font-size: 48px !important; line-height: 1.2 !important; }
+@media (max-width: 1024px) {
+  .hero h1, .hero-section h1, [class*="hero-"] h1, [class~="hero"] h1, .hero .hero-title, .hero-title { font-size: 36px !important; }
+}
+@media (max-width: 768px) {
+  .hero h1, .hero-section h1, [class*="hero-"] h1, [class~="hero"] h1, .hero .hero-title, .hero-title { font-size: 28px !important; }
+}
+
+</style>
 
 <style data-zappy-section-v2-css="true">
 /* V2 Regenerated Section CSS */
@@ -838,366 +1056,6 @@
   }
 }
 </style>
-
-<style data-zappy-section-v2-css="true">
-/* V2 Regenerated Section CSS */
-.home-hero-section {
-  position: relative;
-  width: 100%;
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  overflow: hidden;
-  background-color: var(--bg-dark);
-  color: var(--text-light);
-  direction: rtl;
-}
-
-/* Background image */
-.home-hero-section__bg-image {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center 30%;
-  z-index: 0;
-  filter: brightness(0.55) saturate(0.85);
-  pointer-events: none;
-}
-
-/* Scrim overlay: dark gradient from bottom-right (text side) to top-left */
-.home-hero-section__scrim {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-  pointer-events: none;
-  background-image:
-    linear-gradient(
-      135deg,
-      rgba(27, 43, 75, 0.15) 0%,
-      rgba(27, 43, 75, 0.05) 35%,
-      rgba(15, 28, 51, 0.42) 70%,
-      rgba(15, 28, 51, 0.55) 100%
-    );
-}
-
-/* Content container */
-.home-hero-section__container {
-  position: relative;
-  z-index: 10;
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 120px 24px 80px;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
-
-/* Warm paper text panel */
-.home-hero-section__text-panel {
-  background-color: rgba(250, 249, 246, 0.96);
-  backdrop-filter: blur(4px);
-  padding: 48px 48px 40px;
-  max-width: 620px;
-  width: 100%;
-  border-radius: 2px;
-  box-shadow: 0 20px 48px rgba(0, 0, 0, 0.25), 0 4px 12px rgba(0, 0, 0, 0.1);
-  color: var(--text-dark);
-  text-align: right;
-  border-inline-end: 4px solid var(--accent);
-}
-
-/* Gold accent rule */
-.home-hero-section__gold-rule {
-  width: 60px;
-  height: 3px;
-  background-color: var(--accent);
-  margin-bottom: 28px;
-  margin-inline-start: auto;
-  margin-inline-end: 0;
-}
-
-/* H1 Headline */
-.home-hero-section__headline {
-  font-family: 'Noto Serif Hebrew', 'Frank Ruhl Libre', 'Times New Roman', serif;
-  font-size: 2.4rem;
-  font-weight: 700;
-  line-height: 1.25;
-  letter-spacing: -0.005em;
-  color: var(--text-dark);
-  margin: 0 0 20px;
-  text-align: right;
-  direction: rtl;
-}
-
-/* H3 Subtitle */
-.home-hero-section__subtitle {
-  font-family: 'Inter', 'Assistant', 'Helvetica Neue', sans-serif;
-  font-size: 1.1rem;
-  font-weight: 400;
-  line-height: 1.65;
-  color: var(--text-muted);
-  margin: 0 0 28px;
-  text-align: right;
-  direction: rtl;
-}
-
-/* Credentials strip */
-.home-hero-section__credentials {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 8px;
-  margin-bottom: 32px;
-  color: var(--text-muted);
-  font-size: 0.85rem;
-  font-weight: 500;
-  direction: rtl;
-}
-
-.home-hero-section__credential-badge {
-  display: inline-block;
-  background-color: rgba(27, 43, 75, 0.06);
-  padding: 4px 12px;
-  border-radius: 4px;
-  color: var(--text-dark);
-  white-space: nowrap;
-  font-size: 0.8rem;
-  font-weight: 600;
-  letter-spacing: 0.01em;
-}
-
-.home-hero-section__credential-divider {
-  color: var(--border-light);
-  margin: 0 2px;
-  font-weight: 300;
-}
-
-/* CTA Group */
-.home-hero-section__cta-group {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 16px;
-  margin-bottom: 24px;
-  justify-content: flex-start;
-  direction: rtl;
-}
-
-/* Primary CTA */
-.home-hero-section__btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-  font-family: 'Inter', 'Assistant', sans-serif;
-  font-size: 0.95rem;
-  font-weight: 600;
-  padding: 14px 32px;
-  border-radius: 6px;
-  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
-  cursor: pointer;
-  white-space: nowrap;
-  letter-spacing: 0.02em;
-  direction: rtl;
-}
-
-.home-hero-section__btn--primary {
-  background-color: var(--primary);
-  color: var(--text-light);
-  border: 1.5px solid var(--primary);
-  box-shadow: 0 4px 12px rgba(27, 43, 75, 0.25);
-}
-
-.home-hero-section__btn--primary:hover {
-  background-color: #0F1C33;
-  border-color: #0F1C33;
-  box-shadow: 0 6px 20px rgba(27, 43, 75, 0.35);
-  transform: translateY(-1px);
-}
-
-.home-hero-section__btn--ghost {
-  background-color: transparent;
-  color: var(--primary);
-  border: 1.5px solid var(--primary);
-}
-
-.home-hero-section__btn--ghost:hover {
-  background-color: rgba(27, 43, 75, 0.05);
-  border-color: var(--primary);
-  transform: translateY(-1px);
-}
-
-/* Availability note */
-.home-hero-section__availability-note {
-  font-family: 'Inter', 'Assistant', sans-serif;
-  font-size: 0.8rem;
-  font-weight: 500;
-  color: var(--text-muted);
-  margin: 0;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  justify-content: flex-start;
-  direction: rtl;
-  letter-spacing: 0.02em;
-  border-top: 1px solid var(--border-light);
-  padding-top: 16px;
-}
-
-.home-hero-section__availability-icon {
-  font-size: 1rem;
-  line-height: 1;
-  color: var(--accent);
-}
-
-/* Responsive: Tablet */
-@media (max-width: 1024px) {
-  .home-hero-section__text-panel {
-    max-width: 540px;
-    padding: 40px 36px 32px;
-  }
-
-  .home-hero-section__headline {
-    font-size: 2rem;
-  }
-
-  .home-hero-section__subtitle {
-    font-size: 1rem;
-  }
-}
-
-/* Responsive: Mobile */
-@media (max-width: 768px) {
-  .home-hero-section {
-    min-height: 100vh;
-    align-items: flex-end;
-    padding-bottom: 0;
-  }
-
-  .home-hero-section__container {
-    padding: 100px 16px 40px;
-    justify-content: center;
-    align-items: flex-end;
-  }
-
-  .home-hero-section__text-panel {
-    max-width: 100%;
-    padding: 32px 24px 28px;
-    border-inline-end: none;
-    border-bottom: 4px solid var(--accent);
-    border-radius: 6px 6px 0 0;
-    background-color: rgba(250, 249, 246, 0.98);
-  }
-
-  .home-hero-section__gold-rule {
-    width: 48px;
-    height: 2px;
-    margin-bottom: 20px;
-  }
-
-  .home-hero-section__headline {
-    font-size: 1.6rem;
-    line-height: 1.3;
-    margin-bottom: 16px;
-  }
-
-  .home-hero-section__subtitle {
-    font-size: 0.95rem;
-    line-height: 1.6;
-    margin-bottom: 20px;
-  }
-
-  .home-hero-section__credentials {
-    gap: 6px;
-    margin-bottom: 24px;
-    font-size: 0.75rem;
-  }
-
-  .home-hero-section__credential-badge {
-    font-size: 0.72rem;
-    padding: 3px 10px;
-  }
-
-  .home-hero-section__cta-group {
-    flex-direction: column;
-    gap: 12px;
-    margin-bottom: 20px;
-  }
-
-  .home-hero-section__btn {
-    width: 100%;
-    text-align: center;
-    padding: 14px 24px;
-    font-size: 0.9rem;
-  }
-
-  .home-hero-section__availability-note {
-    font-size: 0.75rem;
-    padding-top: 12px;
-    justify-content: center;
-    text-align: center;
-  }
-
-  .home-hero-section__bg-image {
-    object-position: center 20%;
-  }
-
-  .home-hero-section__scrim {
-    background-image:
-      linear-gradient(
-        180deg,
-        rgba(27, 43, 75, 0.1) 0%,
-        rgba(15, 28, 51, 0.35) 50%,
-        rgba(15, 28, 51, 0.65) 100%
-      );
-  }
-}
-
-/* Small mobile */
-@media (max-width: 480px) {
-  .home-hero-section__container {
-    padding: 100px 12px 24px;
-  }
-
-  .home-hero-section__text-panel {
-    padding: 24px 20px 20px;
-  }
-
-  .home-hero-section__headline {
-    font-size: 1.4rem;
-  }
-
-  .home-hero-section__subtitle {
-    font-size: 0.9rem;
-  }
-
-  .home-hero-section__credentials {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 4px;
-  }
-
-  .home-hero-section__credential-divider {
-    display: none;
-  }
-}
-/* ZAPPY_POSTGEN_GUARD_HERO_FONT_CAP:home-hero */
-.hero h1, .hero-section h1, [class*="hero-"] h1, [class~="hero"] h1, .hero .hero-title, .hero-title { font-size: 48px !important; line-height: 1.2 !important; }
-@media (max-width: 1024px) {
-  .hero h1, .hero-section h1, [class*="hero-"] h1, [class~="hero"] h1, .hero .hero-title, .hero-title { font-size: 36px !important; }
-}
-@media (max-width: 768px) {
-  .hero h1, .hero-section h1, [class*="hero-"] h1, [class~="hero"] h1, .hero .hero-title, .hero-title { font-size: 28px !important; }
-}
-
-</style>
     <style id="zappy-critical-above-fold-css">
 html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{box-sizing:inherit}body{margin:0;min-width:320px;overflow-x:clip}img,svg,video{max-width:100%;height:auto}main{display:block}.container{width:min(100% - 32px,1200px);margin-inline:auto}.navbar,nav.navbar,header .navbar,header[role="banner"]{position:relative;z-index:1000;width:100%}.nav-container,.navbar .container{display:flex;align-items:center;justify-content:space-between;min-height:64px}.logo,.logo-link img{display:block;width:35px;height:35px;object-fit:contain}.nav-menu,#navMenu{list-style:none;margin:0;padding:0}.navbar a,.nav-menu a,#navMenu a,.navbar .nav-links a{color:inherit;text-decoration:none}.navbar .sub-menu,.nav-menu .sub-menu,#navMenu .sub-menu{display:none}.fa,.fas,.far,.fab,.fa-solid,.fa-regular,.fa-brands{display:inline-block;min-width:1em;text-align:center}html:not(#zappy-noop)[data-zappy-site-type="ecommerce"] .phone-header-btn,html:not(#zappy-noop) .navbar:has(.nav-ecommerce-icons)>.phone-header-btn{display:none!important;visibility:hidden!important;width:0!important;height:0!important;pointer-events:none!important}.zappy-preview-empty-store-cta{display:none!important;visibility:hidden!important;height:0!important;max-height:0!important;overflow:hidden!important;margin:0!important;padding:0!important;border:0!important;box-shadow:none!important}.zappy-catalog-menu{background:var(--surface-color,var(--surface,linear-gradient(135deg,#f8f9fa 0%,#fff 100%)));border-bottom:1px solid var(--border-color,#e5e7eb);padding:0;position:sticky;top:0;z-index:90}.zappy-catalog-menu[dir=rtl],.zappy-catalog-menu.rtl{direction:rtl}.zappy-catalog-menu[dir=ltr],.zappy-catalog-menu.ltr{direction:ltr}.catalog-menu-container{max-width:1440px;margin:0 auto;display:flex;align-items:center;gap:8px;padding:10px 24px;overflow:visible}.catalog-menu-categories,.catalog-menu-list{display:flex;align-items:center;gap:4px;flex-wrap:wrap;margin:0;padding:0;list-style:none}.catalog-menu-item{display:inline-flex;align-items:center;padding:8px 16px;font-size:14px;font-weight:500;color:var(--text-color,var(--text,#374151));text-decoration:none;border-radius:20px;white-space:nowrap}.catalog-menu-all{background:var(--primary-color,var(--primary,#111));color:var(--text-light,#fff)!important}.catalog-menu-parent{position:relative;display:inline-flex;align-items:center}.catalog-menu-trigger{display:inline-flex;align-items:center;gap:6px}.catalog-menu-chevron{flex-shrink:0}.catalog-menu-parent>.sub-menu{display:none!important;visibility:hidden!important;opacity:0!important;pointer-events:none!important}.hero-section,.index-hero-section,section[class*="hero"]{position:relative;overflow:hidden;min-height:560px}.hero-bg-wrapper,.hero-bg-image,section[class*="hero"] [class*="hero-bg"]{position:absolute;inset:0;width:100%;height:100%}.hero-bg-wrapper img,.hero-bg-image img,section[class*="hero"] [data-hero-bg],section[class*="hero"] img[data-hero-background="true"]{width:100%!important;height:100%!important;object-fit:cover!important;display:block}.hero-content,section[class*="hero"] .container{position:relative;z-index:2}@media(max-width:768px){:root{--header-height:72px;--total-header-height:72px;--zappy-mobile-menu-top:72px}html[data-zappy-site-type="ecommerce"] body{padding-top:var(--total-header-height,72px)}html[data-zappy-site-type="ecommerce"] body>nav.navbar,html[data-zappy-site-type="ecommerce"] body>.navbar:not(.zappy-catalog-menu){position:fixed!important;top:0;left:0;right:0;z-index:100000;width:100%;margin-bottom:0}.zappy-catalog-menu{position:fixed;top:var(--header-height,72px);left:0;right:0;z-index:99999}.nav-container,.navbar .container{min-height:60px}.nav-menu,#navMenu{max-width:100vw;overflow-x:hidden}.hero-section,.index-hero-section,section[class*="hero"]{min-height:100svh}.hero-bg-wrapper,.hero-bg-image,.hero-scrim{min-height:100svh}}
 :root{--nav-bg:#2D3A4A}.navbar{background-color:#2D3A4A!important}
@@ -1250,7 +1108,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
 </style>
     <link rel="stylesheet" href="/styles.css">
     <script>window.ZAPPY_WEBSITE_ID = "03b54d7b-caf0-41af-aada-270f3b147ab4"; window.ZAPPY_API_BASE = "https://api.zappy5.com";</script>
-    <link rel="preload" as="image" href="/assets/image-legal-services-section-home-hero-home-hero-image-1.webp" fetchpriority="high">
+    <link rel="preload" as="image" href="/assets/general-hero-upload-1784394890951-vqj02n.webp?v=1784394893210" fetchpriority="high">
 
     <style id="zappy-dropdown-submenu-styles">
       /* ========== DESKTOP DROPDOWN SUBMENU STYLES ========== */
@@ -1883,60 +1741,23 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
 
 
 
-<section class="home-hero-section" data-layout-spec="Home-hero" data-hero-type="fullscreen-scrim" id="zappy-section-0">
-  <!-- Full-bleed background image -->
-  <img loading="eager" fetchpriority="high" data-hero-bg="true" data-context="A restrained, credible professional portrait of a senior Israeli attorney in his late 50s, seated at a mahogany desk in a quiet law library. He wears a dark navy suit, white shirt, no tie. Natural window light from the right. In the foreground, a leather-bound legal brief and a fountain pen. No glossy corporate staging. The mood is calm, exact, and quietly authoritative." width="1200" height="600" src="/assets/image-legal-services-section-home-hero-home-hero-image-1.webp" alt="עו״ד ד״ר יוסף סולומון במשרדו" class="home-hero-section__bg-image" style="position: absolute; object-fit: cover; object-position: 50% 50%; max-width: none; max-height: none; margin: 0; inset: 0; width: 100%; height: 100%" decoding="async">
+<section class="hero-section" dir="rtl" id="zappy-section-0" style="position: relative; overflow: hidden; --zappy-bg-color: #FAF9F6; min-height: 1026.49px !important; background-color: rgb(250, 249, 246)" data-zappy-bg-orig-size-var="cover" data-zappy-bg-orig-position-var="center" data-zappy-bg-overlay-opacity="10" data-zappy-bg-color="#FAF9F6" data-zappy-bg-overlay-color="#000000" data-zappy-bg-video-type="" data-zappy-bg-video-url="" data-element-id="zappy-hero-bg-zappy-section-0" data-element-type="background-image" data-zappy-bg-position="50% 50%" data-zappy-bg-zoom="1" data-zappy-bg-type="color">
+  <div class="hero-overlay" data-zappy-gradient-scrim="true" data-zappy-scrim-orig-opacity="1" style="opacity: 1; display: none" data-zappy-original-bg="hidden"></div>
+  <div class="zappy-hero-overlay" style="position:absolute;inset:0;z-index:1;background:rgba(0, 0, 0, 0.1);pointer-events:none;"></div><div class="hero-container" style="position: relative; z-index: 2">
+    <div class="hero-content">
+      <h1 class="hero-heading" style="text-align: start; box-sizing: border-box; color: rgb(27, 43, 75) !important; max-width: 785px; width: min(785px, max(100%, -48px + 100vw)); margin-left: calc(0.5 * (100% - min(785px, max(100%, -48px + 100vw)))); margin-right: calc(0.5 * (100% - min(785px, max(100%, -48px + 100vw)))); display: block;" data-zappy-text-width="custom"><font color="#2d3a4a"></font></h1><h1 style="text-align: center;"><span style="color: rgb(27, 43, 75) !important;"><font>&nbsp;כשמחקר משפטי-מידעני שיטתי ומעמיק חושף&nbsp;</font><font><u>דקויות משפטיות חשובות</u>,</font></span><font>&nbsp;<br></font><span style="color: rgb(184, 146, 42); letter-spacing: -0.02em;">מאזן&nbsp; הכוח&nbsp; משתנה.</span></h1>
+      <h3 style="text-align: start; box-sizing: border-box !important; outline: none; display: block !important; width: min(719px, max(100%, -48px + 100vw)) !important; max-width: 719px !important; margin-left: calc(0.5 * (100% - min(719px, max(100%, -48px + 100vw)))) !important; margin-right: calc(0.5 * (100% - min(719px, max(100%, -48px + 100vw)))) !important; margin-inline: calc(0.5 * (100% - min(719px, max(100%, -48px + 100vw)))) !important;" data-zappy-text-width="custom"><p><span style="color: #2d3a4a !important"><b><span><span></span></span></b></span><span style="color: #1b2b4b !important"><span><br></span></span></p></h3><h3><span style="color: #1b2b4b !important"><span>עו״ד וד״ר (מדעי המידע) יוסף סולומון משלב ניסיון של מעל שני עשורים כעורך דין, עם מומחיות אקדמית באינפורמטיקה משפטית ובינה מלאכותית בתחום המשפט, כדי&nbsp;<span style="color: rgb(27, 43, 75) !important;"><u></u></span><span style="color: rgb(184, 146, 42) !important;"><span><u>לאתר, לגלות ולנתח בשיטתיות את ה<span>דקויות המשפטיות שמשנות את התמונה,&nbsp;</span></u><u>ולרתום אותן לבניית טיעונים מבוססים, מדוייקים ומשכנעים</u></span>:&nbsp;&nbsp;</span></span></span></h3><h3></h3><h3 style="color: rgb(27, 43, 75);"><i>&gt;&gt; חריג נשכח, אך חשוב, בחוק&nbsp;</i>
 
-  <!-- Scrim overlay for text contrast -->
-  <div class="home-hero-section__scrim" aria-hidden="true"></div>
+&gt;&gt; פסק דין נחבא במאגר משפטי או כזה שכלל לא פורסם, אך טומן קביעה משפטית חדה ומסייעת&nbsp; &gt;&gt; נוהל פנימי מחייב, אך נסתר מעיון הציבור&nbsp; &gt;&gt; שונות לשונית דקה, אך קריטית, בניסוח תנאי מכרז&nbsp; &gt;&gt; פרט עובדתי שולי לכאורה, אך בעל משמעות משפטית.  
 
-  <!-- Content Container -->
-  <div class="home-hero-section__container">
-    
-    <!-- Text Panel: Warm paper panel, right-aligned -->
-    <div class="home-hero-section__text-panel">
-      
-      <!-- Gold accent rule -->
-      <div class="home-hero-section__gold-rule" aria-hidden="true"></div>
-
-      <!-- H1: Main headline -->
-      <h1 class="home-hero-section__headline" style="color: #1A1A1A !important">
-        ניסוח משפטי אסטרטגי.<br>ניווט ביורוקרטי מדויק.<br>תיקים נבחרים בלבד.
-      </h1>
-
-      <!-- H3: Supporting subtitle -->
-      <h3 class="home-hero-section__subtitle" style="color: #1A1A1A !important">
-        עורך דין משנת 2002, דוקטור למדעי המידע. משרד בוטיק מצומצם הפתוח בימי שישי בלבד. כתיבה ואסטרטגיה — ללא ליטיגציה, ללא הופעות בבתי משפט.
-      </h3>
-
-      <!-- Credential strip -->
-      <div class="home-hero-section__credentials">
-        <span class="home-hero-section__credential-badge" style="color: #1A1A1A !important">מרצה באוניברסיטה</span>
-        <span class="home-hero-section__credential-divider" aria-hidden="true">|</span>
-        <span class="home-hero-section__credential-badge" style="color: #1A1A1A !important">חוקר מידענות משפטית</span>
-        <span class="home-hero-section__credential-divider" aria-hidden="true">|</span>
-        <span class="home-hero-section__credential-badge" style="color: #1A1A1A !important">יועץ משפטי פנים-ארגוני בחברות ממשלתיות מובילות</span>
-      </div>
-
-      <!-- CTA Buttons -->
-      <div class="home-hero-section__cta-group">
-        <a href="#contact" class="home-hero-section__btn home-hero-section__btn--primary">
-          פניה לבירור מנהלי
-        </a>
-        <a href="#card" class="home-hero-section__btn home-hero-section__btn--ghost">
-          כרטיס ביקור דיגיטלי
-        </a>
-      </div>
-
-      <!-- Availability note -->
-      <p class="home-hero-section__availability-note" style="color: #1A1A1A !important">
-        <span class="home-hero-section__availability-icon" aria-hidden="true" style="color: #1A1A1A !important">🕗</span>
-        ימי שישי בלבד, 08:00–13:00 | תיקים מוגבלים במספרם
-      </p>
-
+</h3><h3><u style="color: rgb(184, 146, 42) !important;">דקויות משפטיות שהצד השני מעדיף שלא תכירו,&nbsp;</u><font color="#b8922a"><u>כי לעיתים המידע המשפטי החשוב ביותר נמצא דווקא בפרטים קטנים ומחוץ לזרקור</u>.</font></h3><b><span style="color: #2d3a4a !important"><span><span><br></span></span></span></b>
+      <div class="hero-buttons"><a href="#about" class="btn btn-primary" data-element-type="button" data-element-id="btn-1783070388792-j4pzzltr0" data-native-element="true" style="outline: none; border-color: rgb(27, 43, 75) !important; color: rgb(255, 255, 255) !important; background-color: rgb(27, 43, 75) !important; background-image: none !important;">הכירו את המשרד</a>
+        <a href="#layout-1783054327612" class="btn btn-primary" data-element-type="button" data-element-id="btn-1783070388792-m9msw85fv" data-native-element="true" style="outline: none; border-color: rgb(27, 43, 75) !important; color: rgb(255, 255, 255) !important; background-color: rgb(27, 43, 75) !important; background-image: none !important;">לקביעת פגישת ייעוץ&nbsp;</a></div>
+    </div>
+    <div class="hero-image-wrapper">
+      <div data-zappy-zoom-wrapper="true" data-element-id="img-1783070388793-ue1810wc3" data-element-type="image" data-zappy-zoom-wrapper-width-mode="full" style="position: absolute; top: 0px !important; left: 0px !important; width: 100%; height: 100%; max-width: none; margin-left: 0px !important; margin-right: 0px !important; z-index: 1 !important; overflow: hidden; inset: 0; max-height: none" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true" data-zappy-zoom-wrapper-align="center"><img loading="eager" fetchpriority="high" data-image-placeholder="0" alt="משרד עורכי דין יוקרתי - חדר ישיבות מודרני בעיצוב כחול-אפור" class="hero-image" src="/assets/general-hero-upload-1784394890951-vqj02n.webp?v=1784394893210" data-element-type="image" data-element-id="img-1783070388793-ue1810wc3" style="border-radius: 8px; object-fit: cover; object-position: 100% 100%; display: block !important; margin: 0; position: absolute; inset: 0; width: 100%; height: 100%; z-index: 0 !important; max-width: none; max-height: none" data-zappy-object-position="100% 100%" data-zappy-zoom="0.6" data-zappy-original-width="536.022705078125" data-zappy-original-height="0" data-zappy-carousel-image-ready="true" data-hero-background="true" data-zappy-mobile-object-position="100% 53%" data-zappy-mobile-zoom="0.6" data-zappy-mobile-src="/assets/general-hero-upload-1784395105523-i3t8is.webp?v=1784395108397" data-hero-bg="true" decoding="async"></div>
     </div>
   </div>
-
 </section>
 
 
@@ -2171,7 +1992,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
 <section id="layout-1783054327612" class="layout-section" data-zappy-component="true" style="width: 100%; padding: 60px 0px; direction: rtl;" data-component-id="contact-info-3col">
   <div class="container" style="max-width: 1200px; margin: 0 auto; padding: 0 1.5rem;">
   <h2 style="font-size: 32px; font-weight: 700; color: rgb(27, 43, 75); margin-bottom: 50px; text-align: center;">משרד עו"ד וד"ר (מדעי המידע) יוסף סולומון</h2>
-  <div class="contact-grid zappy-preserve-css-grid" style="gap: 30px; text-align: center; --zappy-grid-cols: repeat(3, minmax(0, 1fr)); align-items: stretch !important; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr));" id="zappy-auto-grid-1783054329726-80ccdk" data-zappy-auto-grid="true" data-original-item-width="364" data-original-gap="30px" data-zappy-explicit-columns="true"><div style="box-sizing: border-box; background-color: rgb(255, 255, 255) !important; padding: 36px 24px !important; grid-area: auto !important;" data-grid-item-index="0">
+  <div class="contact-grid zappy-preserve-css-grid" style="gap: 30px; text-align: center; --zappy-grid-cols: repeat(3, minmax(0, 1fr)); align-items: stretch !important; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr));" id="zappy-auto-grid-1783054329726-80ccdk" data-zappy-auto-grid="true" data-original-item-width="280" data-original-gap="30px" data-zappy-explicit-columns="true"><div style="box-sizing: border-box; background-color: rgb(255, 255, 255) !important; padding: 36px 24px !important; grid-area: auto !important;" data-grid-item-index="0">
       <div style="width: 60px; height: 60px; margin: 0 auto 20px; background: linear-gradient(135deg, #1B2B4B, #2D3A4A); border-radius: 50%; display: flex; align-items: center; justify-content: center;">
         <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="30" height="30" viewBox="0 0 24 24" data-icon="iconoir:internet" data-iconify="iconoir:internet" data-element-type="icon" data-element-id="icon-1783054329726-gajho3twf-add-1783846011691-mniudy" data-icon-type="iconify" data-size-adjusted="true" style="display: inline-block; vertical-align: -0.125em; color: rgb(255, 255, 255); width: 30px !important; height: 30px !important; pointer-events: auto; cursor: pointer;" class="iconify iconify--iconoir"><g fill="none" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12s4.477 10 10 10"></path><path stroke-linecap="round" stroke-linejoin="round" d="M13 2.05S16 6 16 12m-5 9.95S8 18 8 12s3-9.95 3-9.95M2.63 15.5H12m-9.37-7h18.74"></path><path d="M21.879 17.917c.494.304.463 1.043-.045 1.101l-2.567.291l-1.151 2.312c-.228.459-.933.234-1.05-.334l-1.255-6.116c-.099-.48.333-.782.75-.525z" clip-rule="evenodd"></path></g></svg>
       </div>
