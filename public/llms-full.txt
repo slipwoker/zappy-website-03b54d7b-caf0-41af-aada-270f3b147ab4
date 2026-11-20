@@ -437,6 +437,8 @@ Dr.YosefSolomon@gmail.com
 
 
 
+הזן את טקסט הפסקה שלך...
+
 ###
 
 
@@ -651,6 +653,8 @@ Dr.YosefSolomon@gmail.com
 
 
 
+
+הזן את טקסט הפסקה שלך...
 
 ###
 
@@ -890,6 +894,8 @@ Dr.YosefSolomon@gmail.com
 
 
 
+
+הזן את טקסט הפסקה שלך...
 
 ###
 
@@ -1138,6 +1144,8 @@ Dr.YosefSolomon@gmail.com
 
 
 
+הזן את טקסט הפסקה שלך...
+
 ###
 
 
@@ -1315,6 +1323,8 @@ Dr.YosefSolomon@gmail.com
 
 
 
+
+הזן את טקסט הפסקה שלך...
 
 ###
 
